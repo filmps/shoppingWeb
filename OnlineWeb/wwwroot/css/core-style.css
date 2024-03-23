@@ -1408,3 +1408,14 @@ img {
 .section-heading {
   margin-bottom: 30px;
 }
+
+.button-group .btn {
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
+
+/* Style for the 'Edit the product' button */
+.btn-edit {
+  background-color: black;
+  color: white;
+  border: none; /* Removes the border if there is any */
+}

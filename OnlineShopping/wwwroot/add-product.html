@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Amado - Furniture Ecommerce Template | Add Product</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-content-wrapper d-flex clearfix">
+
+        <!-- Header Area Start -->
+        <header class="header-area clearfix">
+            <!-- Close Icon -->
+            <div class="nav-close">
+                <i class="fa fa-close" aria-hidden="true"></i>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+            </div>
+            <!-- Amado Nav -->
+            <nav class="amado-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="product-details.html">Product</a></li>
+                    <li class="active"><a href="cart.html">Cart</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+            </nav>
+            <!-- Button Group -->
+            <div class="amado-btn-group mt-30 mb-100">
+                <a href="#" class="btn amado-btn mb-15">%Discount%</a>
+                <a href="#" class="btn amado-btn active">New this week</a>
+            </div>
+            <!-- Cart Menu -->
+            <div class="cart-fav-search mb-100">
+                <a href="cart.html" class="cart-nav"><img src="img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
+                <a href="#" class="fav-nav"><img src="img/core-img/favorites.png" alt=""> Favourite</a>
+                <a href="#" class="search-nav"><img src="img/core-img/search.png" alt=""> Search</a>
+            </div>
+            <!-- Social Button -->
+            <div class="social-info d-flex justify-content-between">
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+
+            <style>
+                .add-product-form {
+                    background-color: #f4f4f4; /* Light grey background */
+                    padding: 20px;
+                    margin-bottom: 20px;
+                    border-radius: 8px;
+                    margin-top: 50px;
+                }
+                .section-heading {
+                    margin-bottom: 20px;
+                    padding: 50px;
+                }
+                .custom-file-upload {
+    display: inline-block;
+    padding: 2px 8px; /* Reduced padding for a smaller button */
+    cursor: pointer;
+    background-color: black !important; /* Black background */
+    color: white; /* White text */
+    border: none;
+    text-align: center;
+    font-size: 12px; /* Smaller text size */
+    border-radius: 3px; /* Optional: adds slight rounded corners for aesthetics */
+}
+
+
+                /* You can add more styles here */
+            </style>
+        </header>
+        <!-- Header Area End -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>Add New Product</h2>
+                        <p>Fill out the form below to add a new product.</p>
+                    </div>
+
+                    <!-- Add Product Form -->
+                    <form action="#" method="post" class="form-horizontal add-product-form">
+                        <div>
+                            <label for="productName">Product Name</label>
+                            <input type="text" class="form-control" id="productName" name="productName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productPrice">Price</label>
+                            <input type="number" class="form-control" id="productPrice" name="productPrice" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productImage">Image URL</label>
+                            <input type="text" class="form-control" id="productImage" name="productImage">
+                        </div>
+                        <div class="form-group">
+                            <label for="productImageFile" class="btn amado-btn">
+                                Upload Image
+                            </label>
+                            <input id="productImageFile" type="file" class="form-control-file" name="productImageFile[]" style="display: none;"multiple>
+                        </div>
+                        <div id="preview-container">
+
+                        </div>
+                        <div class="form-group">
+                          <div>
+                            <label for="productStyle">Style</label>
+                          </div>
+                          <div>
+                            <select class="form-control" id="productStyle" name="productStyle" size="4" style="overflow-y: auto;">
+                                <option value="Modern">Modern</option>
+                                <option value="Old-Fashion">Old-Fashion</option>
+                                <option value="Scandinavian">Scandinavian</option> <!-- Additional style -->
+                                <option value="Minimalist">Minimalist</option> <!-- Additional style -->
+                                <!-- Add more styles as needed -->
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group" style="margin-top: 60px;">
+                            <label for="productDescription">Description</label>
+                            <textarea class="form-control" id="productDescription" name="productDescription" rows="4"></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn amado-btn">Add Product</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+         <!-- ##### Newsletter Area Start ##### -->
+    <section class="newsletter-area section-padding-100-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Newsletter Text -->
+                <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="newsletter-text mb-100">
+                        <h2>Subscribe for a <span>25% Discount</span></h2>
+                        <p>Nulla ac convallis lorem, eget euismod nisl. Donec in libero sit amet mi vulputate consectetur. Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
+                    </div>
+                </div>
+                <!-- Newsletter Form -->
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <div class="newsletter-form mb-100">
+                        <form action="#" method="post">
+                            <input type="email" name="email" class="nl-email" placeholder="Your E-mail">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Newsletter Area End ##### -->
+         <!-- ##### Footer Area Start ##### -->
+    <footer class="footer_area clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Single Widget Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single_widget_area">
+                        <!-- Logo -->
+                        <div class="footer-logo mr-50">
+                            <a href="index.html"><img src="img/core-img/logo2.png" alt=""></a>
+                        </div>
+                        <!-- Copywrite Text -->
+                        <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->& Re-distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
+</p>
+                    </div>
+                </div>
+                <!-- Single Widget Area -->
+                <div class="col-12 col-lg-8">
+                    <div class="single_widget_area">
+                        <!-- Footer Menu -->
+                        <div class="footer_menu">
+                            <nav class="navbar navbar-expand-lg justify-content-end">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerNavContent" aria-controls="footerNavContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                                <div class="collapse navbar-collapse" id="footerNavContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="shop.html">Shop</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-details.html">Product</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cart.html">Cart</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="checkout.html">Checkout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <script>
+        document.getElementById('productImageFile').addEventListener('change', function(event) {
+            const file = event.target.files[0]; // Get the selected file
+            if (file && file.type.startsWith('image/')) { // Check if it's an image
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    // Create an img element for the preview
+                    const img = document.createElement('img');
+                    img.src = e.target.result; // Set the source of the image to the file content
+                    img.style.maxWidth = '250px';
+                    img.style.maxHeight = '250px';
+                    img.style.margin = '10px';
+                    img.alt = 'Image preview';
+                    
+                    // Append the new image to the preview container
+                    document.getElementById('preview-container').appendChild(img);
+                };
+                reader.readAsDataURL(file); // Read the file as a data URL
+            }
+        });
+    </script>
+    
+    
+    
+</body>
+
+</html>

@@ -38,8 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Product/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Product/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Product/ShopCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TaG9wQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Shared/Error.cshtml]
@@ -52,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Shop/shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9zaG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Shop/shopfortest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9zaG9wZm9ydGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/_ViewImports.cshtml]

@@ -1,3 +1,6 @@
+@model OnlineWeb.Models.ViewModels.ProductViewModel
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,8 +39,8 @@
             <nav class="amado-nav">
                 <ul>
                     <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-controller="Shop" asp-action="shop">Shop</a></li>
-                    <li><a asp-controller="Product" asp-action="ProductDetails">Product</a></li>
+                    <li><a asp-controller="Product" asp-action="shop">Shop</a></li>
+                    <li><a asp-controller="Product" asp-action="ProductDetails" asp-route-id=1>Product</a></li>
                     <li><a asp-controller="Cart" asp-action="ViewCart">Cart</a></li>
                     <li><a asp-controller="Checkout" asp-action="Checkout">Checkout</a></li>
                     <li><a asp-controller="Product" asp-action="AddProduct">Add product</a></li>
@@ -103,50 +106,65 @@
                     </div>
 
                     <!-- Add Product Form -->
-                    <form action="#" method="post" class="form-horizontal add-product-form">
-                        <div>
-                            <label for="productName">Product Name</label>
-                            <input type="text" class="form-control" id="productName" name="productName" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="productPrice">Price</label>
-                            <input type="number" class="form-control" id="productPrice" name="productPrice" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="productImage">Image URL</label>
-                            <input type="text" class="form-control" id="productImage" name="productImage">
-                        </div>
-                        <div class="form-group">
-                            <label for="productImageFile" class="btn amado-btn">
-                                Upload Image
-                            </label>
-                            <input id="productImageFile" type="file" class="form-control-file" name="productImageFile[]" style="display: none;"multiple>
-                        </div>
-                        <div id="preview-container">
-
-                        </div>
-                        <div class="form-group">
-                          <div>
-                            <label for="productStyle">Style</label>
-                          </div>
-                          <div>
-                            <select class="form-control" id="productStyle" name="productStyle" size="4" style="overflow-y: auto;">
-                                <option value="Modern">Modern</option>
-                                <option value="Old-Fashion">Old-Fashion</option>
-                                <option value="Scandinavian">Scandinavian</option> <!-- Additional style -->
-                                <option value="Minimalist">Minimalist</option> <!-- Additional style -->
-                                <!-- Add more styles as needed -->
-                            </select>
-                          </div>
-                        </div>
-                        <div class="form-group" style="margin-top: 60px;">
-                            <label for="productDescription">Description</label>
-                            <textarea class="form-control" id="productDescription" name="productDescription" rows="4"></textarea>
-                        </div>
-                        <div class="form-group text-center">
-                            <button type="submit" class="btn amado-btn">Add Product</button>
-                        </div>
-                    </form>
+                    <form asp-action="AddProduct" method="post" enctype="multipart/form-data" class="form-horizontal add-product-form">
+    <div class="form-group">
+        <label asp-for="ProductName">Product Name</label>
+        <input asp-for="ProductName" class="form-control" required>
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" type="number" class="form-control" required>
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductImageFiles">Image URL</label>
+        <input asp-for="ProductImageFiles" class="form-control">
+        <span asp-validation-for="ProductImageFiles" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="productImageFile" class="btn amado-btn">Upload Image</label>
+        <input asp-for="ProductImageFiles" id="productImageFile" type="file" class="form-control-file" style="display: none;" multiple>
+        <span asp-validation-for="ProductImageFiles" class="text-danger"></span>
+    </div>
+    <div id="preview-container">
+        <!-- Image preview container -->
+    </div>
+    <div class="form-group">
+        <label asp-for="Style">Style</label>
+        <select asp-for="Style" class="form-control">
+            <option value="">Please select</option>
+            <option value="Modern">Modern</option>
+            <option value="Old-Fashion">Old-Fashion</option>
+            <option value="Scandinavian">Scandinavian</option>
+            <option value="Minimalist">Minimalist</option>
+            <!-- Add more styles as needed -->
+        </select>
+        <span asp-validation-for="Style" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Category">Category</label>
+        <select asp-for="Category" class="form-control">
+            <option value="">Please select</option>
+            <option value="Chairs">Chairs</option>
+            <option value="Beds">Beds</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Home Decor">Home Decor</option>
+            <option value="Dressings">Dressings</option>
+            <option value="Tables">Tables</option>
+        </select>
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group text-center">
+        <button type="submit" class="btn amado-btn">Add Product</button>
+    </div>
+</form>
                 </div>
             </div>
         </div>
