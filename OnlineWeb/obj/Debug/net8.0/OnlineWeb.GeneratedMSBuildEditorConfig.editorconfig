@@ -78,6 +78,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9zaG9wZm9ydGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/User/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
