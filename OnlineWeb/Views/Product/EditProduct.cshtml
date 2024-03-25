@@ -1,0 +1,216 @@
+@model OnlineWeb.Models.ViewModels.ProductViewModel
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Amado - Furniture Ecommerce Template | Add Product</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="/css/core-style.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="main-content-wrapper d-flex clearfix">
+
+        <!-- Header Area Start -->
+        <header class="header-area clearfix">
+            <!-- Close Icon -->
+            <div class="nav-close">
+                <i class="fa fa-close" aria-hidden="true"></i>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+              <a asp-controller="Home" asp-action="Index"><img src="/img/core-img/logo.png" alt=""></a>
+            </div>
+            <!-- Amado Nav -->
+            <nav class="amado-nav">
+                <ul>
+                    <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Product" asp-action="shop">Shop</a></li>
+                    <li><a asp-controller="Product" asp-action="ProductDetails" asp-route-id=1>Product</a></li>
+                    <li><a asp-controller="Cart" asp-action="ViewCart">Cart</a></li>
+                    <li><a asp-controller="Checkout" asp-action="Checkout">Checkout</a></li>
+                    <li><a asp-controller="Product" asp-action="AddProduct">Add product</a></li>
+                </ul>
+            </nav>
+            <!-- Button Group -->
+            <div class="amado-btn-group mt-30 mb-100">
+                <a href="#" class="btn amado-btn mb-15">Discount</a>
+                <a href="#" class="btn amado-btn active">New this week</a>
+            </div>
+            <!-- Cart Menu -->
+            <div class="cart-fav-search mb-100">
+               <a asp-controller="Cart" asp-action="ViewCart"><img src="/img/core-img/cart.png" alt=""> Cart @await Component.InvokeAsync("Cart")</span></a>
+                <a href="#" class="fav-nav"><img src="/img/core-img/favorites.png" alt=""> Favourite</a>
+                <a href="#" class="search-nav"><img src="/img/core-img/search.png" alt=""> Search</a>
+            </div>
+            <!-- Social Button -->
+            <div class="social-info d-flex justify-content-between">
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+
+            <style>
+                .add-product-form {
+                    background-color: #f4f4f4; /* Light grey background */
+                
+    margin: auto; /* Center the form */
+    max-width: 800px; /* Adjust as needed */
+    padding: 20px;
+    /* Add other styles as needed */
+                }
+                
+                .custom-file-upload {
+    display: inline-block;
+    padding: 2px 8px; /* Reduced padding for a smaller button */
+    cursor: pointer;
+    background-color: black !important; /* Black background */
+    color: white; /* White text */
+    border: none;
+    text-align: center;
+    font-size: 12px; /* Smaller text size */
+    border-radius: 3px; /* Optional: adds slight rounded corners for aesthetics */
+}
+.custom-container {
+        max-width: 1100px; /* Adjust this value to suit your design */
+        margin: auto; /* Keeps the container centered */
+    }
+
+
+                /* You can add more styles here */
+            </style>
+        </header>
+        <!-- Header Area End -->
+             <div class="cart-table-area section-padding-100">
+            <div class="container-fluid">
+                <div class="col-12 col-lg-8">
+                    <div class="checkout_details_area mt-50 clearfix">
+
+                    <!-- Section Heading -->
+                    <div class="cart-title">
+                        <h2>Edit the Product</h2>
+                        <p>Fill out the form below to edit a product.</p>
+                    </div>
+             <form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="ProductName" class="sr-only">Product Name</label>
+        <input asp-for="ProductName" class="form-control" placeholder="Product Name" required>
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="sr-only">Price</label>
+        <input asp-for="Price" type="number" class="form-control" placeholder="Price" required>
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label for="productImageFile" class="btn amado-btn">Upload Image</label>
+        <input asp-for="ProductImageFiles" id="productImageFile" type="file" class="form-control-file" style="display: none;" multiple>
+        <span asp-validation-for="ProductImageFiles" class="text-danger"></span>
+    </div>
+    <div id="preview-container">
+        <!-- Image preview container -->
+    </div>
+    <div class="form-group">
+        <label asp-for="Style" class="sr-only">Style</label>
+        <select asp-for="Style" class="custom-select"> 
+            <option value="" selected disabled>Style</option>
+            <option value="Modern">Modern</option>
+            <option value="Old-Fashion">Old-Fashion</option>
+            <option value="Scandinavian">Scandinavian</option>
+            <option value="Minimalist">Minimalist</option>
+            <!-- Add more styles as needed -->
+        </select>
+        <span asp-validation-for="Style" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Category" class="sr-only">Category</label>
+        <select asp-for="Category" class="custom-select">
+            <option value="" selected disabled>Category</option>
+            <option value="Chairs">Chairs</option>
+            <option value="Beds">Beds</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Home Decor">Home Decor</option>
+            <option value="Dressings">Dressings</option>
+            <option value="Tables">Tables</option>
+        </select>
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="sr-only">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="4" placeholder="Description"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group text-center">
+        <button type="submit" class="btn amado-btn">Edit Product</button>
+    </div>
+</form>
+                    <!-- Add Product Form -->
+                    </div>
+                </div>
+        </div>
+        </div>
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <script>
+    let allFiles = [];
+    document.getElementById('productImageFile').addEventListener('change', function(event) {
+    const files = event.target.files; // Access the FileList from the input
+    const previewContainer = document.getElementById('preview-container');
+
+    // Loop through the FileList
+    Array.from(files).forEach(file => {
+        // Check if the file is an image
+        if (file.type.startsWith('image/')) {
+            const reader = new FileReader();
+
+            // When the file is read, this function is called
+            reader.onload = function(e) {
+                // Create an image element for the preview
+                const img = document.createElement('img');
+                img.src = e.target.result; // Set the source to the file's content
+                img.style.maxWidth = '250px';
+                img.style.maxHeight = '250px';
+                img.style.margin = '10px';
+                img.alt = 'Image preview';
+                
+                // Add the image to the preview container
+                previewContainer.appendChild(img);
+                allFiles.push(...event.target.files);
+            };
+
+            // Read the file as a Data URL (base64)
+            reader.readAsDataURL(file);
+        }
+    });
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+@model IEnumerable<OnlineWeb.Models.ViewModels.ProductViewModel>
+
+@{
+    ViewData["Title"] = "Shop";
+}
+
+<h2>Shop</h2>
+
+@if(Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Style</th>
+                <th>Category</th>
+                <th>Image</th>
+                <!-- Include more headers as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.ProductName</td>
+                    <td>@product.Description</td>
+                    <td>@product.Price.ToString("C")</td>
+                    <td>@product.Style</td>
+                    <td>@product.Category</td>
+                    <td>
+                   @if (product.ImageUrls != null && product.ImageUrls.Any())
+                        {
+                            foreach (var imageUrl in product.ImageUrls)
+                            {
+                                <img src="@Url.Content(imageUrl)" alt="Product image" style="max-width: 100px; max-height: 100px;" />
+                            }
+                        }
+                        else
+                        {
+                            <img src="@Url.Content("~/img/core-img/logo.png")" alt="Default image" style="max-width: 100px; max-height: 100px;" />
+                        }
+                        </td>
+                    <!-- Display other properties as needed -->
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No products available.</p>
+}
