@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {}
+    "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {}
   },
   "projects": {
-    "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {
+    "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
+        "projectUniqueName": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
         "projectName": "OnlineWeb",
-        "projectPath": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
+        "projectPath": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
         "packagesPath": "/Users/binli/.nuget/packages/",
-        "outputPath": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/obj/",
+        "outputPath": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/binli/.nuget/NuGet/NuGet.Config"

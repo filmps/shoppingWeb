@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2hPQ0sRs52dVWXP0YIcXZLLYrhrOnYHHrrg46+x3MABNME3fFbFDa1sM7UGtTLCsJD2n3QEb42/Yr35yRWToDA==",
+  "dgSpecHash": "LguaTci8pRaGdzpcxsIYTNXA/reqfWE7vyo/w1nbEd/u2uTOdK0Lh1Gp15F9jbbgIeYNXAqWhDfp2IAAZDjifw==",
   "success": true,
-  "projectFilePath": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
+  "projectFilePath": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
   "expectedPackageFiles": [
     "/Users/binli/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/binli/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

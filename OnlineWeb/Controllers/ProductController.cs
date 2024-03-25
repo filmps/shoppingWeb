@@ -140,6 +140,7 @@ public async Task<IActionResult> AddProduct(ProductViewModel model)
 
     ViewBag.TotalPages = totalPages;
     ViewBag.CurrentPage = page;
+    ViewBag.SelectedCategory = "all";
 
     return View("~/Views/Shop/Shop.cshtml",products);
 }
@@ -250,16 +251,27 @@ public async Task<IActionResult> Edit(ProductViewModel viewModel)
             return NotFound();
         }
 
-    public async Task<IActionResult> ShopCategory(string category)
+    public async Task<IActionResult> ShopCategory(string category, int page = 1)
     {
         IEnumerable<ProductViewModel> model;
+        
+        const int pageSize = 8; // Items per page
+
+        var lowerCategory = category.ToLower();
+        var totalItems = await _context.Products
+                        .Where(p => string.IsNullOrEmpty(category) || p.Category.ToLower() == lowerCategory)
+                        .CountAsync();
+
+        // Calculate total pages
+        var totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
 
         if (!string.IsNullOrEmpty(category))
         {
             
-            var lowerCategory = category.ToLower();
-            model = await _context.Products
+        model = await _context.Products
                             .Where(p => p.Category.ToLower() == lowerCategory) 
+                            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
                             .Select(p => new ProductViewModel
                             {
                                 Id = p.Id,
@@ -283,19 +295,32 @@ public async Task<IActionResult> Edit(ProductViewModel viewModel)
                             .ToListAsync();
         }
 
+        ViewBag.CurrentPage = page;
+        ViewBag.TotalPages = totalPages;
+        ViewBag.SelectedCategory = category;
+        ViewBag.CurrentCategory = category;
         return View(model); // Pass the model to the view
     }
 
-     public async Task<IActionResult> ShopStyle(string style)
+     public async Task<IActionResult> ShopStyle(string style, int page = 1)
     {
         IEnumerable<ProductViewModel> model;
+        const int pageSize = 8; // Items per page
 
+        var lowerStyle = style.ToLower();
+        var totalItems = await _context.Products
+                        .Where(p => string.IsNullOrEmpty(style) || p.Style.ToLower() == lowerStyle)
+                        .CountAsync();
+
+        // Calculate total pages
+        var totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
         if (!string.IsNullOrEmpty(style))
         {
             
-            var lowerCategory = style.ToLower();
              model = await _context.Products
-                            .Where(p => p.Style.ToLower() == lowerCategory) 
+                            .Where(p => p.Style.ToLower() == lowerStyle) 
+                            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
                             .Select(p => new ProductViewModel
                             {
                                 Id = p.Id,
@@ -318,8 +343,10 @@ public async Task<IActionResult> Edit(ProductViewModel viewModel)
                             })
                             .ToListAsync();
         }
-       
+        ViewBag.CurrentPage = page;
+        ViewBag.TotalPages = totalPages;
         ViewBag.SelectedStyle = style;
+        ViewBag.CurrentStyle = style;
         return View(model); // Pass the model to the view
     }
 private async Task<List<ProductImage>> SaveUploadedFiles(List<IFormFile> files)
@@ -343,12 +370,25 @@ private async Task<List<ProductImage>> SaveUploadedFiles(List<IFormFile> files)
     return uploadedImages;
 }
 
-public async Task<IActionResult> SortProducts(string sortOption ,int page =1)
+public async Task<IActionResult> SortProducts(string sortOption ,string category, string style, int page =1)
 {
     IQueryable<Product> productsQuery = _context.Products.AsQueryable();
     const int pageSize = 8; // Items per page
-    var totalItems = await _context.Products.CountAsync(); // Total number of items
-    var totalPages = (int)Math.Ceiling(totalItems / (double)pageSize); // Total pages
+    
+      if (!string.IsNullOrEmpty(category))
+    {
+        var lowerCategory = category.ToLower();
+        productsQuery = productsQuery.Where(p => p.Category.ToLower() == lowerCategory);
+    }
+     
+     if (!string.IsNullOrEmpty(style))
+    {
+        var lowerStyle = style.ToLower();
+        productsQuery = productsQuery.Where(p => p.Style.ToLower() == lowerStyle);
+    }
+    
+    var totalItems = await productsQuery.CountAsync(); // Total number of items after filters
+    var totalPages = (int)Math.Ceiling(totalItems / (double)pageSize); // Total pages after filters
 
     switch (sortOption)
     {
@@ -382,7 +422,11 @@ public async Task<IActionResult> SortProducts(string sortOption ,int page =1)
     ViewBag.TotalPages = totalPages;
     ViewBag.CurrentPage = page;
     ViewBag.SortOption =sortOption;
-
+    ViewBag.CurrentCategory = category;
+    ViewBag.CurrentStyle = style;
+    ViewBag.SelectedStyle = style;
+    ViewBag.SelectedCategory = category;
+     Console.WriteLine($"style: {ViewBag.CurrentStyle}");
 
     return View(products); // Replace "YourViewName" with the actual view name
 }

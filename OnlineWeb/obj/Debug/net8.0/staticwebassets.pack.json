@@ -1,863 +1,863 @@
 {
   "Files": [
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/obj/Debug/net8.0/scopedcss/projectbundle/OnlineWeb.bundle.scp.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/obj/Debug/net8.0/scopedcss/projectbundle/OnlineWeb.bundle.scp.css",
       "PackagePath": "staticwebassets/OnlineWeb.bundle.scp.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/animate.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/animate.css",
       "PackagePath": "staticwebassets/css/animate.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/bootstrap.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/classy-nav.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/classy-nav.min.css",
       "PackagePath": "staticwebassets/css/classy-nav.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/core-style.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/core-style.css",
       "PackagePath": "staticwebassets/css/core-style.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/core-style.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/core-style.css.map",
       "PackagePath": "staticwebassets/css/core-style.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/font-awesome.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/font-awesome.min.css",
       "PackagePath": "staticwebassets/css/font-awesome.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/jquery-ui.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/jquery-ui.min.css",
       "PackagePath": "staticwebassets/css/jquery-ui.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/magnific-popup.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/magnific-popup.css",
       "PackagePath": "staticwebassets/css/magnific-popup.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/nice-select.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/nice-select.css",
       "PackagePath": "staticwebassets/css/nice-select.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/css/owl.carousel.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/css/owl.carousel.css",
       "PackagePath": "staticwebassets/css/owl.carousel.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/favicon.ico",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/FontAwesome.otf",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/FontAwesome.otf",
       "PackagePath": "staticwebassets/fonts/FontAwesome.otf"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.eot",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.eot",
       "PackagePath": "staticwebassets/fonts/fontawesome-webfont.eot"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.svg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.svg",
       "PackagePath": "staticwebassets/fonts/fontawesome-webfont.svg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.ttf",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets/fonts/fontawesome-webfont.ttf"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.woff",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.woff",
       "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.woff2",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff2"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/helvetica_neu_bold-webfont.ttf",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/helvetica_neu_bold-webfont.ttf",
       "PackagePath": "staticwebassets/fonts/helvetica_neu_bold-webfont.ttf"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/helvetica_neu_bold-webfont.woff",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/helvetica_neu_bold-webfont.woff",
       "PackagePath": "staticwebassets/fonts/helvetica_neu_bold-webfont.woff"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/helvetica_neu_bold-webfont.woff2",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/helvetica_neu_bold-webfont.woff2",
       "PackagePath": "staticwebassets/fonts/helvetica_neu_bold-webfont.woff2"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/helveticaneue_medium-webfont.ttf",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/helveticaneue_medium-webfont.ttf",
       "PackagePath": "staticwebassets/fonts/helveticaneue_medium-webfont.ttf"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/helveticaneue_medium-webfont.woff",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/helveticaneue_medium-webfont.woff",
       "PackagePath": "staticwebassets/fonts/helveticaneue_medium-webfont.woff"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/fonts/helveticaneue_medium-webfont.woff2",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/fonts/helveticaneue_medium-webfont.woff2",
       "PackagePath": "staticwebassets/fonts/helveticaneue_medium-webfont.woff2"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/1.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/1.jpg",
       "PackagePath": "staticwebassets/img/bg-img/1.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/2.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/2.jpg",
       "PackagePath": "staticwebassets/img/bg-img/2.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/3.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/3.jpg",
       "PackagePath": "staticwebassets/img/bg-img/3.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/4.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/4.jpg",
       "PackagePath": "staticwebassets/img/bg-img/4.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/5.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/5.jpg",
       "PackagePath": "staticwebassets/img/bg-img/5.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/6.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/6.jpg",
       "PackagePath": "staticwebassets/img/bg-img/6.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/7.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/7.jpg",
       "PackagePath": "staticwebassets/img/bg-img/7.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/8.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/8.jpg",
       "PackagePath": "staticwebassets/img/bg-img/8.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/9.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/9.jpg",
       "PackagePath": "staticwebassets/img/bg-img/9.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/cart1.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/cart1.jpg",
       "PackagePath": "staticwebassets/img/bg-img/cart1.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/cart2.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/cart2.jpg",
       "PackagePath": "staticwebassets/img/bg-img/cart2.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/cart3.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/bg-img/cart3.jpg",
       "PackagePath": "staticwebassets/img/bg-img/cart3.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/core-img/cart.png",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/cart.png",
       "PackagePath": "staticwebassets/img/core-img/cart.png"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/core-img/delete.png",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/delete.png",
       "PackagePath": "staticwebassets/img/core-img/delete.png"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/core-img/favicon.ico",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/favicon.ico",
       "PackagePath": "staticwebassets/img/core-img/favicon.ico"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/core-img/favorites.png",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/favorites.png",
       "PackagePath": "staticwebassets/img/core-img/favorites.png"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/core-img/logo.png",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/logo.png",
       "PackagePath": "staticwebassets/img/core-img/logo.png"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/core-img/logo2.png",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/logo2.png",
       "PackagePath": "staticwebassets/img/core-img/logo2.png"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/core-img/paypal.png",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/paypal.png",
       "PackagePath": "staticwebassets/img/core-img/paypal.png"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/core-img/search.png",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/search.png",
       "PackagePath": "staticwebassets/img/core-img/search.png"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/pro-big-1.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/pro-big-1.jpg",
       "PackagePath": "staticwebassets/img/product-img/pro-big-1.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/pro-big-2.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/pro-big-2.jpg",
       "PackagePath": "staticwebassets/img/product-img/pro-big-2.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/pro-big-3.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/pro-big-3.jpg",
       "PackagePath": "staticwebassets/img/product-img/pro-big-3.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/pro-big-4.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/pro-big-4.jpg",
       "PackagePath": "staticwebassets/img/product-img/pro-big-4.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product1.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product1.jpg",
       "PackagePath": "staticwebassets/img/product-img/product1.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product2.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product2.jpg",
       "PackagePath": "staticwebassets/img/product-img/product2.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product3.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product3.jpg",
       "PackagePath": "staticwebassets/img/product-img/product3.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product4.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product4.jpg",
       "PackagePath": "staticwebassets/img/product-img/product4.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product5.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product5.jpg",
       "PackagePath": "staticwebassets/img/product-img/product5.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product6.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/product-img/product6.jpg",
       "PackagePath": "staticwebassets/img/product-img/product6.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/js/active.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/js/active.js",
       "PackagePath": "staticwebassets/js/active.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/js/bootstrap.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/js/classy-nav.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/js/classy-nav.min.js",
       "PackagePath": "staticwebassets/js/classy-nav.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/js/jquery/jquery-2.2.4.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/js/jquery/jquery-2.2.4.min.js",
       "PackagePath": "staticwebassets/js/jquery/jquery-2.2.4.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/js/map-active.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/js/map-active.js",
       "PackagePath": "staticwebassets/js/map-active.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/js/plugins.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/js/plugins.js",
       "PackagePath": "staticwebassets/js/plugins.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/js/popper.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/js/popper.min.js",
       "PackagePath": "staticwebassets/js/popper.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/scss/_mixin.scss",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/scss/_mixin.scss",
       "PackagePath": "staticwebassets/scss/_mixin.scss"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/scss/_responsive.scss",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/scss/_responsive.scss",
       "PackagePath": "staticwebassets/scss/_responsive.scss"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/scss/_theme_color.scss",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/scss/_theme_color.scss",
       "PackagePath": "staticwebassets/scss/_theme_color.scss"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/scss/_variables.scss",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/scss/_variables.scss",
       "PackagePath": "staticwebassets/scss/_variables.scss"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/scss/style.scss",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/scss/style.scss",
       "PackagePath": "staticwebassets/scss/style.scss"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/style.css",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/style.css",
       "PackagePath": "staticwebassets/style.css"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/00048581-f1a2-4d08-a2fd-7afb5a144b9f_table7.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/00048581-f1a2-4d08-a2fd-7afb5a144b9f_table7.jpeg",
       "PackagePath": "staticwebassets/uploads/00048581-f1a2-4d08-a2fd-7afb5a144b9f_table7.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/02a42610-0af2-444b-a15d-5dc29dd620d4_bed6.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/02a42610-0af2-444b-a15d-5dc29dd620d4_bed6.jpeg",
       "PackagePath": "staticwebassets/uploads/02a42610-0af2-444b-a15d-5dc29dd620d4_bed6.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/03a5a518-c00d-4dca-b6fe-fdb7cbfe09dd_de2.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/03a5a518-c00d-4dca-b6fe-fdb7cbfe09dd_de2.jpeg",
       "PackagePath": "staticwebassets/uploads/03a5a518-c00d-4dca-b6fe-fdb7cbfe09dd_de2.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/07a52543-0173-4fac-8d21-04ac9549d34a_table6.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/07a52543-0173-4fac-8d21-04ac9549d34a_table6.jpeg",
       "PackagePath": "staticwebassets/uploads/07a52543-0173-4fac-8d21-04ac9549d34a_table6.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/09bd035e-d309-42ff-b9c3-2be6ee441432_5a0f8844-9d10-4a48-8317-30dd3daa32b2_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/09bd035e-d309-42ff-b9c3-2be6ee441432_5a0f8844-9d10-4a48-8317-30dd3daa32b2_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/09bd035e-d309-42ff-b9c3-2be6ee441432_5a0f8844-9d10-4a48-8317-30dd3daa32b2_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/0c586c50-d3be-4439-8619-b6a649c1f6c5_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/0c586c50-d3be-4439-8619-b6a649c1f6c5_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/0c586c50-d3be-4439-8619-b6a649c1f6c5_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/0e75276b-aca0-40a7-a8e4-08d424ce7827_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/0e75276b-aca0-40a7-a8e4-08d424ce7827_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/0e75276b-aca0-40a7-a8e4-08d424ce7827_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/1.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/1.jpg",
       "PackagePath": "staticwebassets/uploads/1.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/10a8dd2c-73df-4979-aa0e-0ccd69f43fbf_chair1.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/10a8dd2c-73df-4979-aa0e-0ccd69f43fbf_chair1.jpeg",
       "PackagePath": "staticwebassets/uploads/10a8dd2c-73df-4979-aa0e-0ccd69f43fbf_chair1.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/120d92d6-f718-4fb0-ae9c-1502503d88ea_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/120d92d6-f718-4fb0-ae9c-1502503d88ea_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/120d92d6-f718-4fb0-ae9c-1502503d88ea_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/13856875-47d5-400f-9f41-371ca77d47f4_print3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/13856875-47d5-400f-9f41-371ca77d47f4_print3.jpeg",
       "PackagePath": "staticwebassets/uploads/13856875-47d5-400f-9f41-371ca77d47f4_print3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/180f795c-e621-41eb-b8a8-38fe69654d1a_chair6.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/180f795c-e621-41eb-b8a8-38fe69654d1a_chair6.jpeg",
       "PackagePath": "staticwebassets/uploads/180f795c-e621-41eb-b8a8-38fe69654d1a_chair6.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/193b2fe4-40fa-48a9-80c8-65b63d0abd5d_sofa6.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/193b2fe4-40fa-48a9-80c8-65b63d0abd5d_sofa6.jpeg",
       "PackagePath": "staticwebassets/uploads/193b2fe4-40fa-48a9-80c8-65b63d0abd5d_sofa6.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/1a32af33-d887-4f61-b0fd-722d903eb462_09bd035e-d309-42ff-b9c3-2be6ee441432_5a0f8844-9d10-4a48-8317-30dd3daa32b2_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/1a32af33-d887-4f61-b0fd-722d903eb462_09bd035e-d309-42ff-b9c3-2be6ee441432_5a0f8844-9d10-4a48-8317-30dd3daa32b2_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/1a32af33-d887-4f61-b0fd-722d903eb462_09bd035e-d309-42ff-b9c3-2be6ee441432_5a0f8844-9d10-4a48-8317-30dd3daa32b2_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/1ce50dea-6712-4001-8d56-c7bb1e033708_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/1ce50dea-6712-4001-8d56-c7bb1e033708_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/1ce50dea-6712-4001-8d56-c7bb1e033708_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/2 (2).jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/2 (2).jpg",
       "PackagePath": "staticwebassets/uploads/2 (2).jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/2.jpg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/2.jpg",
       "PackagePath": "staticwebassets/uploads/2.jpg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/2185115a-74c1-4305-be07-e203d922e3a4_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/2185115a-74c1-4305-be07-e203d922e3a4_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/2185115a-74c1-4305-be07-e203d922e3a4_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/24898d4a-b363-47a6-b1af-5f0d73474d8e_li2.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/24898d4a-b363-47a6-b1af-5f0d73474d8e_li2.jpeg",
       "PackagePath": "staticwebassets/uploads/24898d4a-b363-47a6-b1af-5f0d73474d8e_li2.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/25e26eb9-0d81-44d9-b2bb-4af351bdc9e0_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/25e26eb9-0d81-44d9-b2bb-4af351bdc9e0_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/25e26eb9-0d81-44d9-b2bb-4af351bdc9e0_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/2831bfe0-cdf9-4b46-8b77-27087eeeef1f_prin2.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/2831bfe0-cdf9-4b46-8b77-27087eeeef1f_prin2.jpeg",
       "PackagePath": "staticwebassets/uploads/2831bfe0-cdf9-4b46-8b77-27087eeeef1f_prin2.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/28dfb157-22f0-43d8-93ab-0758d279b0b2_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/28dfb157-22f0-43d8-93ab-0758d279b0b2_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/28dfb157-22f0-43d8-93ab-0758d279b0b2_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/3044fdbb-2e11-4018-9b6c-f84bb9edb971_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/3044fdbb-2e11-4018-9b6c-f84bb9edb971_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/3044fdbb-2e11-4018-9b6c-f84bb9edb971_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/323b43bc-409e-43ac-a58d-e7091c54a9f1_pillow3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/323b43bc-409e-43ac-a58d-e7091c54a9f1_pillow3.jpeg",
       "PackagePath": "staticwebassets/uploads/323b43bc-409e-43ac-a58d-e7091c54a9f1_pillow3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/3377302b-a7d0-4966-860e-bb53a36fff2b_bed7.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/3377302b-a7d0-4966-860e-bb53a36fff2b_bed7.jpeg",
       "PackagePath": "staticwebassets/uploads/3377302b-a7d0-4966-860e-bb53a36fff2b_bed7.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/36b17307-3f52-4d3e-b6a4-71d739c6730b_bed2.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/36b17307-3f52-4d3e-b6a4-71d739c6730b_bed2.jpeg",
       "PackagePath": "staticwebassets/uploads/36b17307-3f52-4d3e-b6a4-71d739c6730b_bed2.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/3afb83b7-69b4-4b19-82aa-ea9dab7c51d4_table1.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/3afb83b7-69b4-4b19-82aa-ea9dab7c51d4_table1.jpeg",
       "PackagePath": "staticwebassets/uploads/3afb83b7-69b4-4b19-82aa-ea9dab7c51d4_table1.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/3afc4a16-af6d-4bcf-bdc0-9634aba71596_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/3afc4a16-af6d-4bcf-bdc0-9634aba71596_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/3afc4a16-af6d-4bcf-bdc0-9634aba71596_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/3c1607d0-6d14-4245-a0ba-eecb9ad933f6_bed8.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/3c1607d0-6d14-4245-a0ba-eecb9ad933f6_bed8.jpeg",
       "PackagePath": "staticwebassets/uploads/3c1607d0-6d14-4245-a0ba-eecb9ad933f6_bed8.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/3c782d50-b2bc-4e54-9a0d-3d00ce26ad41_bed1.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/3c782d50-b2bc-4e54-9a0d-3d00ce26ad41_bed1.jpeg",
       "PackagePath": "staticwebassets/uploads/3c782d50-b2bc-4e54-9a0d-3d00ce26ad41_bed1.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/3ea46e27-9e43-4410-8d1d-72bca4888cd1_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/3ea46e27-9e43-4410-8d1d-72bca4888cd1_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/3ea46e27-9e43-4410-8d1d-72bca4888cd1_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/403d2084-352b-4831-b4d3-459f370d8dea_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/403d2084-352b-4831-b4d3-459f370d8dea_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/403d2084-352b-4831-b4d3-459f370d8dea_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/41a9c735-8220-4951-b971-880ba4aca995_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/41a9c735-8220-4951-b971-880ba4aca995_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/41a9c735-8220-4951-b971-880ba4aca995_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/43c37571-e99a-4c4f-a77f-479f3f67a445_dre2.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/43c37571-e99a-4c4f-a77f-479f3f67a445_dre2.jpeg",
       "PackagePath": "staticwebassets/uploads/43c37571-e99a-4c4f-a77f-479f3f67a445_dre2.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/43f9755c-92b1-485c-a729-bfdabc09e66b_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/43f9755c-92b1-485c-a729-bfdabc09e66b_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/43f9755c-92b1-485c-a729-bfdabc09e66b_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/4790587d-0038-419e-8010-1bd8fd2dc325_print1.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/4790587d-0038-419e-8010-1bd8fd2dc325_print1.jpeg",
       "PackagePath": "staticwebassets/uploads/4790587d-0038-419e-8010-1bd8fd2dc325_print1.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/47c47148-fa05-44a6-b3e0-aefc9a551a25_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/47c47148-fa05-44a6-b3e0-aefc9a551a25_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/47c47148-fa05-44a6-b3e0-aefc9a551a25_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/4ffc07d2-281d-446b-a503-22a5beb0e18e_sofa4.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/4ffc07d2-281d-446b-a503-22a5beb0e18e_sofa4.jpeg",
       "PackagePath": "staticwebassets/uploads/4ffc07d2-281d-446b-a503-22a5beb0e18e_sofa4.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/523ee29c-fddc-4392-a7d2-402ca5100fd0_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/523ee29c-fddc-4392-a7d2-402ca5100fd0_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/523ee29c-fddc-4392-a7d2-402ca5100fd0_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/5a0f8844-9d10-4a48-8317-30dd3daa32b2_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/5a0f8844-9d10-4a48-8317-30dd3daa32b2_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/5a0f8844-9d10-4a48-8317-30dd3daa32b2_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/5ac3b537-636b-4830-a2e4-accf8ca0c5f3_43f9755c-92b1-485c-a729-bfdabc09e66b_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/5ac3b537-636b-4830-a2e4-accf8ca0c5f3_43f9755c-92b1-485c-a729-bfdabc09e66b_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/5ac3b537-636b-4830-a2e4-accf8ca0c5f3_43f9755c-92b1-485c-a729-bfdabc09e66b_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/5c4656c0-1f8a-4aea-a4bf-7ff625dae395_table3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/5c4656c0-1f8a-4aea-a4bf-7ff625dae395_table3.jpeg",
       "PackagePath": "staticwebassets/uploads/5c4656c0-1f8a-4aea-a4bf-7ff625dae395_table3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/64d7c674-46a8-4291-ae9b-fa492dfd1c46_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/64d7c674-46a8-4291-ae9b-fa492dfd1c46_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/64d7c674-46a8-4291-ae9b-fa492dfd1c46_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/6702f229-6cef-4d58-847c-fcb0a42cf705_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/6702f229-6cef-4d58-847c-fcb0a42cf705_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/6702f229-6cef-4d58-847c-fcb0a42cf705_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/697e0c9b-3cb9-4bdc-b79f-b7017272e48a_dre1.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/697e0c9b-3cb9-4bdc-b79f-b7017272e48a_dre1.jpeg",
       "PackagePath": "staticwebassets/uploads/697e0c9b-3cb9-4bdc-b79f-b7017272e48a_dre1.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/6e1a2aa0-959c-4e83-9956-09c30f679dfb_li1.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/6e1a2aa0-959c-4e83-9956-09c30f679dfb_li1.jpeg",
       "PackagePath": "staticwebassets/uploads/6e1a2aa0-959c-4e83-9956-09c30f679dfb_li1.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/72a840c8-c492-43ef-9ed9-2c7ac96634e3_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/72a840c8-c492-43ef-9ed9-2c7ac96634e3_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/72a840c8-c492-43ef-9ed9-2c7ac96634e3_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/7344406f-e7d0-4458-89df-012905303aa6_bed9.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/7344406f-e7d0-4458-89df-012905303aa6_bed9.jpeg",
       "PackagePath": "staticwebassets/uploads/7344406f-e7d0-4458-89df-012905303aa6_bed9.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/73df41e8-14c5-4c74-bb1c-52e47026ac98_5ac3b537-636b-4830-a2e4-accf8ca0c5f3_43f9755c-92b1-485c-a729-bfdabc09e66b_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/73df41e8-14c5-4c74-bb1c-52e47026ac98_5ac3b537-636b-4830-a2e4-accf8ca0c5f3_43f9755c-92b1-485c-a729-bfdabc09e66b_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/73df41e8-14c5-4c74-bb1c-52e47026ac98_5ac3b537-636b-4830-a2e4-accf8ca0c5f3_43f9755c-92b1-485c-a729-bfdabc09e66b_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/74537e73-5f25-4994-86da-24df05913d78_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/74537e73-5f25-4994-86da-24df05913d78_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/74537e73-5f25-4994-86da-24df05913d78_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/7d9615ec-f3fe-4caa-beb8-90842ec6c700_chair5.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/7d9615ec-f3fe-4caa-beb8-90842ec6c700_chair5.jpeg",
       "PackagePath": "staticwebassets/uploads/7d9615ec-f3fe-4caa-beb8-90842ec6c700_chair5.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/828a5ee4-53df-46bc-9efe-0a0e78dd1c93_sofa5.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/828a5ee4-53df-46bc-9efe-0a0e78dd1c93_sofa5.jpeg",
       "PackagePath": "staticwebassets/uploads/828a5ee4-53df-46bc-9efe-0a0e78dd1c93_sofa5.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/88e3b706-e6d3-4501-80c7-cd7af752c43e_sofa1.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/88e3b706-e6d3-4501-80c7-cd7af752c43e_sofa1.jpeg",
       "PackagePath": "staticwebassets/uploads/88e3b706-e6d3-4501-80c7-cd7af752c43e_sofa1.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/89d5b0a9-3731-4aee-8f3d-8bbcdaa79534_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/89d5b0a9-3731-4aee-8f3d-8bbcdaa79534_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/89d5b0a9-3731-4aee-8f3d-8bbcdaa79534_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/8a281c39-eef3-4492-b7a5-2cfad08f89b0_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/8a281c39-eef3-4492-b7a5-2cfad08f89b0_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/8a281c39-eef3-4492-b7a5-2cfad08f89b0_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/8aa7e427-6e2d-406c-a0f1-d0298c376527_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/8aa7e427-6e2d-406c-a0f1-d0298c376527_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/8aa7e427-6e2d-406c-a0f1-d0298c376527_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/8d369a4a-8001-4b5e-9551-0527d737fdb5_li3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/8d369a4a-8001-4b5e-9551-0527d737fdb5_li3.jpeg",
       "PackagePath": "staticwebassets/uploads/8d369a4a-8001-4b5e-9551-0527d737fdb5_li3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/8f3bc9e4-7af3-433d-b1e1-8ba08de90256_table2.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/8f3bc9e4-7af3-433d-b1e1-8ba08de90256_table2.jpeg",
       "PackagePath": "staticwebassets/uploads/8f3bc9e4-7af3-433d-b1e1-8ba08de90256_table2.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/95b48c2d-ff6c-41e1-a6f6-088551dc63da_pillow2.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/95b48c2d-ff6c-41e1-a6f6-088551dc63da_pillow2.jpeg",
       "PackagePath": "staticwebassets/uploads/95b48c2d-ff6c-41e1-a6f6-088551dc63da_pillow2.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/9845ddf4-0f1e-4a39-9d25-3d1ad86a723e_chair2.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/9845ddf4-0f1e-4a39-9d25-3d1ad86a723e_chair2.jpeg",
       "PackagePath": "staticwebassets/uploads/9845ddf4-0f1e-4a39-9d25-3d1ad86a723e_chair2.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/98d05d63-02a2-4fb3-98a7-3cd076df7812.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/98d05d63-02a2-4fb3-98a7-3cd076df7812.jpeg",
       "PackagePath": "staticwebassets/uploads/98d05d63-02a2-4fb3-98a7-3cd076df7812.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/9a0e1586-a241-47c0-b062-30d765dfb4fd_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/9a0e1586-a241-47c0-b062-30d765dfb4fd_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/9a0e1586-a241-47c0-b062-30d765dfb4fd_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/9b00497f-49b7-487d-b558-cd9c6be08d3e_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/9b00497f-49b7-487d-b558-cd9c6be08d3e_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/9b00497f-49b7-487d-b558-cd9c6be08d3e_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/a098e8e8-bb3a-440c-a0e8-9a3f704ec315_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/a098e8e8-bb3a-440c-a0e8-9a3f704ec315_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/a098e8e8-bb3a-440c-a0e8-9a3f704ec315_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/a319aacb-9bc4-4872-aa6f-4aaf13a5ffb8_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/a319aacb-9bc4-4872-aa6f-4aaf13a5ffb8_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/a319aacb-9bc4-4872-aa6f-4aaf13a5ffb8_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/a468ce61-b50e-4453-8c6e-0097c4acbba9_table8.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/a468ce61-b50e-4453-8c6e-0097c4acbba9_table8.jpeg",
       "PackagePath": "staticwebassets/uploads/a468ce61-b50e-4453-8c6e-0097c4acbba9_table8.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/a5b036a8-4511-45a7-97e0-ae13b6685cae_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/a5b036a8-4511-45a7-97e0-ae13b6685cae_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/a5b036a8-4511-45a7-97e0-ae13b6685cae_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/b33762de-47a3-4eaf-8c17-e9f33d08a838_a098e8e8-bb3a-440c-a0e8-9a3f704ec315_NSF-CG-3-MD-DW-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/b33762de-47a3-4eaf-8c17-e9f33d08a838_a098e8e8-bb3a-440c-a0e8-9a3f704ec315_NSF-CG-3-MD-DW-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/b33762de-47a3-4eaf-8c17-e9f33d08a838_a098e8e8-bb3a-440c-a0e8-9a3f704ec315_NSF-CG-3-MD-DW-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/b58910a1-43e9-4df8-a068-5a6d54668077_bed5.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/b58910a1-43e9-4df8-a068-5a6d54668077_bed5.jpeg",
       "PackagePath": "staticwebassets/uploads/b58910a1-43e9-4df8-a068-5a6d54668077_bed5.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/be1d86f8-b3d9-4ac2-b58f-71a410059c81_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/be1d86f8-b3d9-4ac2-b58f-71a410059c81_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/be1d86f8-b3d9-4ac2-b58f-71a410059c81_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/bed4.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/bed4.jpeg",
       "PackagePath": "staticwebassets/uploads/bed4.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/bed5.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/bed5.jpeg",
       "PackagePath": "staticwebassets/uploads/bed5.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/bed9.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/bed9.jpeg",
       "PackagePath": "staticwebassets/uploads/bed9.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/c1b6e023-ff0c-46e9-b054-b012586950a2_bed4.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/c1b6e023-ff0c-46e9-b054-b012586950a2_bed4.jpeg",
       "PackagePath": "staticwebassets/uploads/c1b6e023-ff0c-46e9-b054-b012586950a2_bed4.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/c20e2bdf-6f1a-4359-8eb7-1b469cff6a5c_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/c20e2bdf-6f1a-4359-8eb7-1b469cff6a5c_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/c20e2bdf-6f1a-4359-8eb7-1b469cff6a5c_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/ca333d7a-df78-44f1-8ae7-fd505c642ad8_dre3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/ca333d7a-df78-44f1-8ae7-fd505c642ad8_dre3.jpeg",
       "PackagePath": "staticwebassets/uploads/ca333d7a-df78-44f1-8ae7-fd505c642ad8_dre3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/cd2e7b2f-0342-41b2-9f05-7c3d630e33aa_pillow1.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/cd2e7b2f-0342-41b2-9f05-7c3d630e33aa_pillow1.jpeg",
       "PackagePath": "staticwebassets/uploads/cd2e7b2f-0342-41b2-9f05-7c3d630e33aa_pillow1.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/cfb7dba2-dd23-4beb-a230-84ec0f9702bc_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/cfb7dba2-dd23-4beb-a230-84ec0f9702bc_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/cfb7dba2-dd23-4beb-a230-84ec0f9702bc_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/cfe41866-b8ff-4e48-98bf-71699609a589_sofa3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/cfe41866-b8ff-4e48-98bf-71699609a589_sofa3.jpeg",
       "PackagePath": "staticwebassets/uploads/cfe41866-b8ff-4e48-98bf-71699609a589_sofa3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/d19ecd49-f0f1-4a47-89fb-cd995e759369_chair3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/d19ecd49-f0f1-4a47-89fb-cd995e759369_chair3.jpeg",
       "PackagePath": "staticwebassets/uploads/d19ecd49-f0f1-4a47-89fb-cd995e759369_chair3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/d81bacfc-b6b9-4001-aebd-5d7330f4a05a_de1.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/d81bacfc-b6b9-4001-aebd-5d7330f4a05a_de1.jpeg",
       "PackagePath": "staticwebassets/uploads/d81bacfc-b6b9-4001-aebd-5d7330f4a05a_de1.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/e00306ca-4e3d-4b3c-9c5c-8d49fe54eeb1_table9.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/e00306ca-4e3d-4b3c-9c5c-8d49fe54eeb1_table9.jpeg",
       "PackagePath": "staticwebassets/uploads/e00306ca-4e3d-4b3c-9c5c-8d49fe54eeb1_table9.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/e8e62bd6-5090-4d1c-a1b4-095483db132c_table5.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/e8e62bd6-5090-4d1c-a1b4-095483db132c_table5.jpeg",
       "PackagePath": "staticwebassets/uploads/e8e62bd6-5090-4d1c-a1b4-095483db132c_table5.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/ec3cb7a0-9635-45ea-a5fa-2eafc9885fea_table4.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/ec3cb7a0-9635-45ea-a5fa-2eafc9885fea_table4.jpeg",
       "PackagePath": "staticwebassets/uploads/ec3cb7a0-9635-45ea-a5fa-2eafc9885fea_table4.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/ee06f3bc-3963-49bf-9046-9a13834ff1ec_Nomad-Block-Arm-Grey-Talent-3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/ee06f3bc-3963-49bf-9046-9a13834ff1ec_Nomad-Block-Arm-Grey-Talent-3.jpeg",
       "PackagePath": "staticwebassets/uploads/ee06f3bc-3963-49bf-9046-9a13834ff1ec_Nomad-Block-Arm-Grey-Talent-3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/f2000f51-91af-4d19-9dbb-e406f06f9316_bed3.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/f2000f51-91af-4d19-9dbb-e406f06f9316_bed3.jpeg",
       "PackagePath": "staticwebassets/uploads/f2000f51-91af-4d19-9dbb-e406f06f9316_bed3.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/f3a32e80-d5a4-4994-8c68-11437b367f7a_Arm-Detail-CG-MD-TF.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/f3a32e80-d5a4-4994-8c68-11437b367f7a_Arm-Detail-CG-MD-TF.jpeg",
       "PackagePath": "staticwebassets/uploads/f3a32e80-d5a4-4994-8c68-11437b367f7a_Arm-Detail-CG-MD-TF.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/f815258e-8506-4485-a889-5efc7f37e5f8_chair4.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/f815258e-8506-4485-a889-5efc7f37e5f8_chair4.jpeg",
       "PackagePath": "staticwebassets/uploads/f815258e-8506-4485-a889-5efc7f37e5f8_chair4.jpeg"
     },
     {
-      "Id": "/Users/binli/Documents/New/shoppingWeb/OnlineWeb/wwwroot/uploads/fbfe7a4a-df0f-4fc9-bdf0-6ea4af497164_sofa2.jpeg",
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/uploads/fbfe7a4a-df0f-4fc9-bdf0-6ea4af497164_sofa2.jpeg",
       "PackagePath": "staticwebassets/uploads/fbfe7a4a-df0f-4fc9-bdf0-6ea4af497164_sofa2.jpeg"
     },
     {

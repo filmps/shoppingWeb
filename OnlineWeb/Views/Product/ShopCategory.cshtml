@@ -110,50 +110,74 @@
                 <!--  Catagories  -->
                 <div class="catagories-menu">
                     <ul>
-                        <li class="active"><a asp-controller="Product" asp-action="Shop">All</a></li>
-                         <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="chairs">Chairs</a></li>
-                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="beds">Beds</a></li>
-                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="accessories">Accesories</a></li>
-                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="furniture">Furniture</a></li>
-                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="home decor">Home Deco</a></li>
-                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="dressings">Dressings</a></li>
-                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="tables">Tables</a></li>
-                    </ul>
+    <li class="@("all".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
+        <a asp-controller="Product" asp-action="Shop" asp-route-category="all">All</a>
+    </li>
+    <li class="@("chairs".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
+        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="chairs">Chairs</a>
+    </li>
+    <li class="@("beds".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
+        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="beds">Beds</a>
+    </li>
+    <li class="@("accessories".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
+        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="accessories">Accessories</a>
+    </li>
+    <li class="@("furniture".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
+        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="furniture">Furniture</a>
+    </li>
+    <li class="@("home decor".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
+        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="home decor">Home Deco</a>
+    </li>
+    <li class="@("dressings".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
+        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="dressings">Dressings</a>
+    </li>
+    <li class="@("tables".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
+        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="tables">Tables</a>
+    </li>
+</ul>
+
                 </div>
             </div>
 
             <!-- ##### Single Widget ##### -->
             <div class="widget brands mb-50">
                 <!-- Widget Title -->
-                <h6 class="widget-title mb-30">Brands</h6>
+                <h6 class="widget-title mb-30">Style</h6>
 
                 <div class="widget-desc">
-                    <!-- Single Form Check -->
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="amado">
-                        <label class="form-check-label" for="amado">Amado</label>
-                    </div>
-                    <!-- Single Form Check -->
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="ikea">
-                        <label class="form-check-label" for="ikea">Ikea</label>
-                    </div>
-                    <!-- Single Form Check -->
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="furniture">
-                        <label class="form-check-label" for="furniture">Furniture Inc</label>
-                    </div>
-                    <!-- Single Form Check -->
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="factory">
-                        <label class="form-check-label" for="factory">The factory</label>
-                    </div>
-                    <!-- Single Form Check -->
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="artdeco">
-                        <label class="form-check-label" for="artdeco">Artdeco</label>
-                    </div>
-                </div>
+    <!-- Single Form Check for Modern -->
+    <form asp-controller="Product" asp-action="ShopStyle" asp-route-style="modern" method="get" style="margin-bottom: 20px;">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="style" value="modern" id="modern" 
+                @(ViewBag.SelectedStyle == "modern" ? "checked" : "") onchange="this.form.submit();">
+            <label class="form-check-label" for="modern">Modern</label>
+        </div>
+    </form>
+    <!-- Single Form Check for Old Fashion -->
+    <form asp-controller="Product" asp-action="ShopStyle" method="get" style="margin-bottom: 20px;">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="style" value="old-fashion" id="old-fashion" 
+                @(ViewBag.SelectedStyle == "old-fashion" ? "checked" : "") onchange="this.form.submit();">
+            <label class="form-check-label" for="old-fashion">Old Fashion</label>
+        </div>
+    </form>
+    <!-- Single Form Check for Scandinavian -->
+    <form asp-controller="Product" asp-action="ShopStyle" method="get" style="margin-bottom: 20px;">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="style" value="scandinavian" id="scandinavian" 
+                @(ViewBag.SelectedStyle == "scandinavian" ? "checked" : "") onchange="this.form.submit();">
+            <label class="form-check-label" for="scandinavian">Scandinavian</label>
+        </div>
+    </form>
+    <!-- Single Form Check for Minimalist -->
+    <form asp-controller="Product" asp-action="ShopStyle" method="get" style="margin-bottom: 20px;">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="style" value="minimalist" id="minimalist" 
+                @(ViewBag.SelectedStyle == "minimalist" ? "checked" : "") onchange="this.form.submit();">
+            <label class="form-check-label" for="minimalist">Minimalist</label>
+        </div>
+    </form>
+         </div>
             </div>
 
             <!-- ##### Single Widget ##### -->
@@ -212,6 +236,7 @@
                                 <div class="sort-by-date d-flex align-items-center mr-15">
                                     <p>Sort by</p>
                                      <form asp-controller="Product" asp-action="SortProducts" method="get">
+                                    <input type="hidden" name="category" value="@ViewBag.CurrentCategory" />
                                     <select name="sortOption" id="sortBy" onchange="this.form.submit();">
                                            <option value="">Select</option>
                                            <option value="priceLowToHigh">Price: Low to High</option>
@@ -249,7 +274,7 @@
                         {
                             
                             {
-                                <img src="@Url.Content(product.ImageUrls[0])" alt="Product image" />
+                                <img src="@Url.Content(product.ImageUrls[0])" alt="Product image" style="width: 100%; height: 280px; object-fit: cover;"/>
                             }
                         }
                         else
@@ -306,21 +331,21 @@
                 @if(ViewBag.CurrentPage > 1)
                 {
                     <li class="page-item">
-                        <a class="page-link" href="@Url.Action("Shop", new { page = ViewBag.CurrentPage - 1 })">Pre</a>
+                        <a class="page-link" href="@Url.Action("ShopCategory", new { category = ViewBag.SelectedCategory , page = ViewBag.CurrentPage - 1 })">Pre</a>
                     </li>
                 }
 
                 @for(int i = 1; i <= ViewBag.TotalPages; i++)
                 {
                     <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
-                        <a class="page-link" href="@Url.Action("Shop", new { page = i })">@i</a>
+                        <a class="page-link" href="@Url.Action("ShopCategory", new { category = ViewBag.SelectedCategory , page = i })">@i</a>
                     </li>
                 }
 
                 @if(ViewBag.CurrentPage < ViewBag.TotalPages)
                 {
                     <li class="page-item">
-                        <a class="page-link" href="@Url.Action("Shop", new { page = ViewBag.CurrentPage + 1 })">Next</a>
+                        <a class="page-link" href="@Url.Action("ShopCategory", new {category = ViewBag.SelectedCategory,page = ViewBag.CurrentPage + 1 })">Next</a>
                     </li>
                 }
             </ul>
