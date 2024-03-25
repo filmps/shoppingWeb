@@ -48,7 +48,7 @@
             </nav>
             <!-- Button Group -->
             <div class="amado-btn-group mt-30 mb-100">
-                <a href="#" class="btn amado-btn mb-15">%Discount%</a>
+                <a href="#" class="btn amado-btn mb-15">Discount</a>
                 <a href="#" class="btn amado-btn active">New this week</a>
             </div>
             <!-- Cart Menu -->
@@ -96,32 +96,28 @@
             </style>
         </header>
         <!-- Header Area End -->
-        <div class="container custom-container">
-            <div class="row justify-content-center">
+             <div class="cart-table-area section-padding-100">
+            <div class="container-fluid">
                 <div class="col-12 col-lg-8">
-                    <!-- Section Heading -->
-                    <div class="section-heading text-center">
-                        <h2>Edit the Product</h2>
-                        <p>Fill out the form below to edit a new product.</p>
-                    </div>
+                    <div class="checkout_details_area mt-50 clearfix">
 
-                    <!-- Add Product Form -->
-                <form asp-action="Edit" asp-controller="Product" method="post" enctype="multipart/form-data" class="form-horizontal add-product-form">
+                    <!-- Section Heading -->
+                    <div class="cart-title">
+                        <h2>Edit the Product</h2>
+                        <p>Fill out the form below to edit a product.</p>
+                    </div>
+             <form asp-action="Edit" method="post" enctype="multipart/form-data">
     <div class="form-group">
-        <label asp-for="ProductName">Product Name</label>
-        <input asp-for="ProductName" class="form-control" required>
+        <label asp-for="ProductName" class="sr-only">Product Name</label>
+        <input asp-for="ProductName" class="form-control" placeholder="Product Name" required>
         <span asp-validation-for="ProductName" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Price">Price</label>
-        <input asp-for="Price" type="number" class="form-control" required>
+        <label asp-for="Price" class="sr-only">Price</label>
+        <input asp-for="Price" type="number" class="form-control" placeholder="Price" required>
         <span asp-validation-for="Price" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="ProductImageFiles">Image URL</label>
-        <input asp-for="ProductImageFiles" class="form-control">
-        <span asp-validation-for="ProductImageFiles" class="text-danger"></span>
-    </div>
+    
     <div class="form-group">
         <label for="productImageFile" class="btn amado-btn">Upload Image</label>
         <input asp-for="ProductImageFiles" id="productImageFile" type="file" class="form-control-file" style="display: none;" multiple>
@@ -131,9 +127,9 @@
         <!-- Image preview container -->
     </div>
     <div class="form-group">
-        <label asp-for="Style">Style</label>
-        <select asp-for="Style" class="form-control">
-            <option value="">Please select</option>
+        <label asp-for="Style" class="sr-only">Style</label>
+        <select asp-for="Style" class="custom-select"> 
+            <option value="" selected disabled>Style</option>
             <option value="Modern">Modern</option>
             <option value="Old-Fashion">Old-Fashion</option>
             <option value="Scandinavian">Scandinavian</option>
@@ -142,10 +138,11 @@
         </select>
         <span asp-validation-for="Style" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="Category">Category</label>
-        <select asp-for="Category" class="form-control">
-            <option value="">Please select</option>
+        <label asp-for="Category" class="sr-only">Category</label>
+        <select asp-for="Category" class="custom-select">
+            <option value="" selected disabled>Category</option>
             <option value="Chairs">Chairs</option>
             <option value="Beds">Beds</option>
             <option value="Accessories">Accessories</option>
@@ -157,20 +154,19 @@
         <span asp-validation-for="Category" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Description">Description</label>
-        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+        <label asp-for="Description" class="sr-only">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="4" placeholder="Description"></textarea>
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
     <div class="form-group text-center">
         <button type="submit" class="btn amado-btn">Edit Product</button>
     </div>
 </form>
+                    <!-- Add Product Form -->
+                    </div>
                 </div>
-            </div>
         </div>
-        
-
-    </div>
+        </div>
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->

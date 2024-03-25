@@ -5,18 +5,24 @@
 namespace OnlineWeb.Migrations
 {
     /// <inheritdoc />
-    public partial class product3 : Migration
+    public partial class totaL2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-
+            migrationBuilder.RenameColumn(
+                name: "TotalPrice",
+                table: "Carts",
+                newName: "AllTotalPrice");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-
+            migrationBuilder.RenameColumn(
+                name: "AllTotalPrice",
+                table: "Carts",
+                newName: "TotalPrice");
         }
     }
 }

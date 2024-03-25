@@ -5,7 +5,7 @@
 namespace OnlineWeb.Migrations
 {
     /// <inheritdoc />
-    public partial class product2 : Migration
+    public partial class total : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

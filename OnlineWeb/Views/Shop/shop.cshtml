@@ -23,83 +23,6 @@
 </head>
 
 <body>
-    <!-- Search Wrapper Area Start -->
-    <div class="search-wrapper section-padding-100">
-        <div class="search-close">
-            <i class="fa fa-close" aria-hidden="true"></i>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="search-content">
-                        <form action="#" method="get">
-                            <input type="search" name="search" id="search" placeholder="Type your keyword...">
-                            <button type="submit"><img src="img/core-img/search.png" alt=""></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Search Wrapper Area End -->
-
-    <!-- ##### Main Content Wrapper Start ##### -->
-    <div class="main-content-wrapper d-flex clearfix">
-
-        <!-- Mobile Nav (max width 767px)-->
-        <div class="mobile-nav">
-            <!-- Navbar Brand -->
-            <div class="amado-navbar-brand">
-                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
-            </div>
-            <!-- Navbar Toggler -->
-            <div class="amado-navbar-toggler">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-
-        <!-- Header Area Start -->
-        <header class="header-area clearfix">
-            <!-- Close Icon -->
-            <div class="nav-close">
-                <i class="fa fa-close" aria-hidden="true"></i>
-            </div>
-            <!-- Logo -->
-            <div class="logo">
-               <a asp-controller="Home" asp-action="Index"><img src="/img/core-img/logo.png" alt=""></a>
-            </div>
-            <!-- Amado Nav -->
-            <nav class="amado-nav">
-                <ul>
-                    <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-controller="Product" asp-action="shop">Shop</a></li>
-                    <li><a asp-controller="Product" asp-action="ProductDetails" asp-route-id=1>Product</a></li>
-                    <li><a asp-controller="Cart" asp-action="ViewCart">Cart</a></li>
-                    <li><a asp-controller="Checkout" asp-action="Checkout">Checkout</a></li>
-                    <li><a asp-controller="Product" asp-action="AddProduct">Add product</a></li>
-                </ul>
-            </nav>
-            <!-- Button Group -->
-            <div class="amado-btn-group mt-30 mb-100">
-                <a href="#" class="btn amado-btn mb-15">%Discount%</a>
-                <a href="#" class="btn amado-btn active">New this week</a>
-            </div>
-            <!-- Cart Menu -->
-            <div class="cart-fav-search mb-100">
-                <a><img src="/img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
-                <a><img src="/img/core-img/favorites.png" alt=""> Favourite</a>
-                <a <img src="/img/core-img/search.png" alt=""> Search</a>
-            </div>
-            <!-- Social Button -->
-            <div class="social-info d-flex justify-content-between">
-                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </div>
-        </header>
-        <!-- Header Area End -->
-
         <div class="shop_sidebar_area">
 
             <!-- ##### Single Widget ##### -->
@@ -110,7 +33,7 @@
                 <!--  Catagories  -->
                 <div class="catagories-menu">
                     <ul>
-                        <li class="active"><a href="#">All</a></li>
+                        <li class="active"><a asp-controller="Product" asp-action="Shop">All</a></li>
                          <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="chairs">Chairs</a></li>
                         <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="beds">Beds</a></li>
                         <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="accessories">Accesories</a></li>
@@ -278,7 +201,7 @@
                                     </div>
                                     <div class="cart-container" style="display: flex;">
                                    <div class="cart">
-        <form asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" method="post" onsubmit="return confirmDelete();">
+         <form asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" method="post" onsubmit="return confirmDelete();">
         <button type="submit" data-toggle="tooltip" data-placement="left" title="Delete Item" style="background: none; border: none; padding: 0; margin-right: 10px;">
             <img src="/img/core-img/delete.png" alt="" width="20" height="20">
         </button>
@@ -286,8 +209,13 @@
         </form>
                                   </div>
                 <div class="cart">
-         <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="/img/core-img/cart.png" alt="" width="20" height="20"></a>
-               </div>
+     <form asp-controller="Cart" asp-action="AddToCart" method="post">
+        <input type="hidden" name="productId" value="@product.Id" />
+        <button type="submit" data-toggle="tooltip" title="Add to Cart" style="background: none; border: none; padding: 0;">
+            <img src="/img/core-img/cart.png" alt="" width="20" height="20">
+        </button>
+    </form>
+   </div>
          </div>
 
                                 </div>

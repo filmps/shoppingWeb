@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using OnlineWeb.Models;
+using OnlineWeb.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace OnlineWeb.Controllers;
 
@@ -8,13 +10,27 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+    private readonly ApplicationDbContext _context;
 
-    public IActionResult Index()
+    public HomeController(ApplicationDbContext context, ILogger<HomeController> logger)
     {
+            _context = context;
+            _logger = logger;
+    }
+    public async Task<IActionResult> Index()
+    {
+        var cartId = 1;
+        var cart = await _context.Carts.FirstOrDefaultAsync( c => c.CartId == cartId );
+        
+        if(cart != null)
+        {
+            ViewBag.TotalQuantity = cart.TotalQuantity;
+        }
+        else
+        {
+            ViewBag.TotalQuantity = 0; 
+        }
+         
         return View();
     }
 
