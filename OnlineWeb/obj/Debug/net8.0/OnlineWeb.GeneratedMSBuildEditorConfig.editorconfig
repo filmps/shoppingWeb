@@ -9,87 +9,95 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineWeb
 build_property.RootNamespace = OnlineWeb
-build_property.ProjectDir = /Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/
+build_property.ProjectDir = /Users/hana/Downloads/shoppingWeb/OnlineWeb/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb
+build_property.MSBuildProjectDirectory = /Users/hana/Downloads/shoppingWeb/OnlineWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Cart/ViewCart.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Cart/ViewCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9WaWV3Q2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Checkout/Checkout.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Checkout/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Home/index.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Feedback/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVlZGJhY2svSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Feedback/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVlZGJhY2svU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Home/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Home/Privacy.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Product/AddProduct.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Product/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Product/EditProduct.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Product/EditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Product/ProductDetails.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Product/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Product/ShopCategory.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Product/ShopCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TaG9wQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Product/ShopStyle.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Product/ShopStyle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TaG9wU3R5bGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Product/SortProducts.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Product/SortProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Tb3J0UHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Shared/Components/Cart/Default.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Shared/Components/Cart/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2FydC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Shared/Error.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Shop/shop.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Shop/shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9zaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Shop/shopfortest.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Shop/shopfortest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9zaG9wZm9ydGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/User/Detail.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/User/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/_ViewImports.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/_ViewStart.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/Views/Shared/_Layout.cshtml]
+[/Users/hana/Downloads/shoppingWeb/OnlineWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tf11jbj7n8

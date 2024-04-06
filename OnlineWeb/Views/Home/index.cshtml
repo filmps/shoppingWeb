@@ -89,6 +89,13 @@
                 <a asp-controller="Cart" asp-action="ViewCart"><img src="img/core-img/cart.png" alt=""> Cart @await Component.InvokeAsync("Cart")</span></a>
                 <a href="#" class="fav-nav"><img src="img/core-img/favorites.png" alt=""> Favourite</a>
                 <a href="#" class="search-nav"><img src="img/core-img/search.png" alt=""> Search</a>
+                <a asp-controller="Feedback" asp-action="Index">
+                    <i class="fas fa-envelope" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i>     Feedback
+                </a>
+
+                 <a href="mailto:hanalau.unsw@gmail.com?subject=Support&body=Content" 
+                    class="fas fa-envelope" style="color: rgb(20, 19, 19);margin-right:12px;margin-left:8px;">     Support
+                </a>
             </div>
             <!-- Social Button -->
             <div class="social-info d-flex justify-content-between">
