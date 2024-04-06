@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hana/Desktop/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {}
+    "/Users/hana/Downloads/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {}
   },
   "projects": {
-    "/Users/hana/Desktop/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {
+    "/Users/hana/Downloads/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hana/Desktop/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
+        "projectUniqueName": "/Users/hana/Downloads/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
         "projectName": "OnlineWeb",
-        "projectPath": "/Users/hana/Desktop/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
+        "projectPath": "/Users/hana/Downloads/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
         "packagesPath": "/Users/hana/.nuget/packages/",
-        "outputPath": "/Users/hana/Desktop/shoppingWeb/OnlineWeb/obj/",
+        "outputPath": "/Users/hana/Downloads/shoppingWeb/OnlineWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hana/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"

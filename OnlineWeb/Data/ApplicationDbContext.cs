@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using OnlineWeb.Models;
 using System.ComponentModel.DataAnnotations; 
 
 namespace OnlineWeb.Data;
@@ -19,6 +20,7 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<User> Users { get; set; }
 
+    public DbSet<Feedback> Feedbacks { get; set; }
 
 
 }
