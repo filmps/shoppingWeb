@@ -4911,25 +4911,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/binli/.nuget/packages/": {}
+    "/Users/hana/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
+      "projectUniqueName": "/Users/hana/Desktop/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
       "projectName": "OnlineWeb",
-      "projectPath": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
-      "packagesPath": "/Users/binli/.nuget/packages/",
-      "outputPath": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/obj/",
+      "projectPath": "/Users/hana/Desktop/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
+      "packagesPath": "/Users/hana/.nuget/packages/",
+      "outputPath": "/Users/hana/Desktop/shoppingWeb/OnlineWeb/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/binli/.nuget/NuGet/NuGet.Config"
+        "/Users/hana/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5003,7 +5002,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
