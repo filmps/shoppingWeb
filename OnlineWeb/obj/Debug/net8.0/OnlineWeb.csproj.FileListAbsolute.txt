@@ -884,3 +884,6 @@
 /Users/hana/Downloads/shoppingWeb/OnlineWeb/obj/Debug/net8.0/OnlineWeb.pdb
 /Users/hana/Downloads/shoppingWeb/OnlineWeb/obj/Debug/net8.0/OnlineWeb.genruntimeconfig.cache
 /Users/hana/Downloads/shoppingWeb/OnlineWeb/obj/Debug/net8.0/ref/OnlineWeb.dll
+/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/bin/Debug/net8.0/MailKit.dll
+/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/bin/Debug/net8.0/MimeKit.dll

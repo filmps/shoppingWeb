@@ -53,6 +53,25 @@
 
 </style>
 <body>
+     <!-- Search Wrapper Area Start -->
+    <div class="search-wrapper section-padding-100">
+        <div class="search-close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-content">
+                        <form asp-controller="Product" asp-action="SearchProducts" method="get">
+      <input type="search" name="keyword" id="search" placeholder="Type your keyword...">
+      <button type="submit"><img src="/img/core-img/search.png" alt="Search"></button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search Wrapper Area End -->
     <div class="main-content-wrapper d-flex clearfix">
 
         <!-- Header Area Start -->
@@ -170,15 +189,15 @@
         </div>
         </div>
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="js/plugins.js"></script>
+    <script src="/js/plugins.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="/js/active.js"></script>
     <script>
         document.getElementById('productImageFile').addEventListener('change', function(event) {
             const file = event.target.files[0]; // Get the selected file

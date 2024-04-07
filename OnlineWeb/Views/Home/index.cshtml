@@ -32,10 +32,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="search-content">
-                        <form action="#" method="get">
-                            <input type="search" name="search" id="search" placeholder="Type your keyword...">
-                            <button type="submit"><img src="img/core-img/search.png" alt=""></button>
-                        </form>
+                      <form asp-controller="Product" asp-action="SearchProducts" method="get">
+    <input type="search" name="keyword" id="search" placeholder="Type your keyword...">
+    <button type="submit"><img src="img/core-img/search.png" alt="Search"></button>
+                    </form>
                     </div>
                 </div>
             </div>
@@ -90,11 +90,11 @@
                 <a href="#" class="fav-nav"><img src="img/core-img/favorites.png" alt=""> Favourite</a>
                 <a href="#" class="search-nav"><img src="img/core-img/search.png" alt=""> Search</a>
                 <a asp-controller="Feedback" asp-action="Index">
-                    <i class="fas fa-envelope" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i>     Feedback
+                    <i class="fas fa-envelope" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i>Feedback
                 </a>
 
-                 <a href="mailto:hanalau.unsw@gmail.com?subject=Support&body=Content" 
-                    class="fas fa-envelope" style="color: rgb(20, 19, 19);margin-right:12px;margin-left:8px;">     Support
+                 <a href="mailto:hanalau.unsw@gmail.com?subject=Support&body=Content">
+                    <i class="fas fa-envelope" style="color: rgb(20, 19, 19);margin-right:16px;margin-left:4px;"></i>Support
                 </a>
             </div>
             <!-- Social Button -->

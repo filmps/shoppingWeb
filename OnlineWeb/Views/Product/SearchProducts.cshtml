@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="search-content">
-                        <form asp-controller="Product" asp-action="SearchProducts" method="get">
+                       <form asp-controller="Product" asp-action="SearchProducts" method="get">
     <input type="search" name="keyword" id="search" placeholder="Type your keyword...">
     <button type="submit"><img src="img/core-img/search.png" alt="Search"></button>
                     </form>
@@ -81,12 +81,12 @@
             </nav>
             <!-- Button Group -->
             <div class="amado-btn-group mt-30 mb-100">
-                 <a href="#" class="btn amado-btn mb-15">Discount</a>
+                <a href="#" class="btn amado-btn mb-15">Discount</a>
                 <a href="#" class="btn amado-btn active">New this week</a>
             </div>
             <!-- Cart Menu -->
             <div class="cart-fav-search mb-100">
-               <a asp-controller="Cart" asp-action="ViewCart"><img src="/img/core-img/cart.png" alt=""> Cart @await Component.InvokeAsync("Cart")</span></a>
+                <a asp-controller="Cart" asp-action="ViewCart"><img src="/img/core-img/cart.png" alt=""> Cart @await Component.InvokeAsync("Cart")</span></a>
                 <a href="#" class="fav-nav"><img src="/img/core-img/favorites.png" alt=""> Favourite</a>
                 <a href="#" class="search-nav"><img src="/img/core-img/search.png" alt=""> Search</a>
             </div>
@@ -110,34 +110,15 @@
                 <!--  Catagories  -->
                 <div class="catagories-menu">
                     <ul>
-                       <p>@ViewBag.SelectedCategory</p>
-   <li class="@((string.IsNullOrEmpty(ViewBag.SelectedCategory) || "all".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase)) ? "active" : "")">
-    <a asp-controller="Product" asp-action="Shop" asp-route-category="all">All</a>
-   </li>
-
-    <li class="@("chairs".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="chairs">Chairs</a>
-    </li>
-    <li class="@("beds".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="beds">Beds</a>
-    </li>
-    <li class="@("accessories".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="accessories">Accessories</a>
-    </li>
-    <li class="@("furniture".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="furniture">Furniture</a>
-    </li>
-    <li class="@("home decor".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="home decor">Home Deco</a>
-    </li>
-    <li class="@("dressings".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="dressings">Dressings</a>
-    </li>
-    <li class="@("tables".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="tables">Tables</a>
-    </li>
-</ul>
-
+                        <li class="active"><a asp-controller="Product" asp-action="Shop">All</a></li>
+                         <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="chairs">Chairs</a></li>
+                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="beds">Beds</a></li>
+                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="accessories">Accesories</a></li>
+                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="furniture">Furniture</a></li>
+                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="home decor">Home Deco</a></li>
+                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="dressings">Dressings</a></li>
+                        <li><a asp-controller="Product" asp-action="ShopCategory" asp-route-category="tables">Tables</a></li>
+                    </ul>
                 </div>
             </div>
 
@@ -146,9 +127,9 @@
                 <!-- Widget Title -->
                 <h6 class="widget-title mb-30">Style</h6>
 
-               <div class="widget-desc">
+                <div class="widget-desc">
     <!-- Single Form Check for Modern -->
-    <form asp-controller="Product" asp-action="ShopStyle" method="get" style="margin-bottom: 20px;" >
+    <form asp-controller="Product" asp-action="ShopStyle" asp-route-style="modern" method="get" style="margin-bottom: 20px;">
         <div class="form-check">
             <input class="form-check-input" type="checkbox" name="style" value="modern" id="modern" 
                 @(ViewBag.SelectedStyle == "modern" ? "checked" : "") onchange="this.form.submit();">
@@ -179,7 +160,7 @@
             <label class="form-check-label" for="minimalist">Minimalist</label>
         </div>
     </form>
-</div>
+         </div>
 
             </div>
 
@@ -239,8 +220,6 @@
                                 <div class="sort-by-date d-flex align-items-center mr-15">
                                     <p>Sort by</p>
                                     <form asp-controller="Product" asp-action="SortProducts" method="get">
-
-                                     <input type="hidden" name="category" value="@ViewBag.CurrentCategory" />
                                      <input type="hidden" name="style" value="@ViewBag.CurrentStyle" />
                                     <select name="sortOption" id="sortBy" onchange="this.form.submit();">
                                            <option value="">Select</option>
@@ -309,7 +288,7 @@
                                     </div>
                                     <div class="cart-container" style="display: flex;">
                                    <div class="cart">
-         <form asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" method="post" onsubmit="return confirmDelete();">
+        <form asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" method="post" onsubmit="return confirmDelete();">
         <button type="submit" data-toggle="tooltip" data-placement="left" title="Delete Item" style="background: none; border: none; padding: 0; margin-right: 10px;">
             <img src="/img/core-img/delete.png" alt="" width="20" height="20">
         </button>
@@ -317,13 +296,8 @@
         </form>
                                   </div>
                 <div class="cart">
-     <form asp-controller="Cart" asp-action="AddToCart" method="post">
-        <input type="hidden" name="productId" value="@product.Id" />
-        <button type="submit" data-toggle="tooltip" title="Add to Cart" style="background: none; border: none; padding: 0;">
-            <img src="/img/core-img/cart.png" alt="" width="20" height="20">
-        </button>
-    </form>
-   </div>
+         <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="/img/core-img/cart.png" alt="" width="20" height="20"></a>
+               </div>
          </div>
 
                                 </div>
@@ -341,21 +315,21 @@
                 @if(ViewBag.CurrentPage > 1)
                 {
                     <li class="page-item">
-                        <a class="page-link" href="@Url.Action("SortProducts", new { sortOption = ViewBag.SortOption, category = ViewBag.CurrentCategory, style = ViewBag.CurrentStyle, page = ViewBag.CurrentPage - 1 })">Pre</a>
+                        <a class="page-link" href="@Url.Action("SearchProducts", new { keyword = ViewBag.Keyword , page = ViewBag.CurrentPage - 1 })">Pre</a>
                     </li>
                 }
 
                 @for(int i = 1; i <= ViewBag.TotalPages; i++)
                 {
                     <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
-                        <a class="page-link" href="@Url.Action("SortProducts", new { sortOption = ViewBag.SortOption, category = ViewBag.CurrentCategory, style = ViewBag.CurrentStyle ,page = i })">@i</a>
+                        <a class="page-link" href="@Url.Action("SearchProducts", new { keyword = ViewBag.Keyword, page = i })">@i</a>
                     </li>
                 }
 
                 @if(ViewBag.CurrentPage < ViewBag.TotalPages)
                 {
                     <li class="page-item">
-                        <a class="page-link" href="@Url.Action("SortProducts", new { sortOption = ViewBag.SortOption, category = ViewBag.CurrentCategory, style = ViewBag.CurrentStyle , page = ViewBag.CurrentPage + 1 })">Next</a>
+                        <a class="page-link" href="@Url.Action("SearchProducts", new { keyword = ViewBag.Keyword,page = ViewBag.CurrentPage + 1 })">Next</a>
                     </li>
                 }
             </ul>

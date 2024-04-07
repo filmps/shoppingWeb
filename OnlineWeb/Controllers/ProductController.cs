@@ -431,6 +431,49 @@ public async Task<IActionResult> SortProducts(string sortOption ,string category
     return View(products); // Replace "YourViewName" with the actual view name
 }
 
+public async Task<IActionResult> SearchProducts(string keyword, int page = 1)
+{
+    IEnumerable<ProductViewModel> model;
+    const int pageSize = 8; // Items per page
+
+    var lowerKeyword = keyword?.ToLower().Trim();
+
+    // Calculate total items that match the keyword in title or description
+    var totalItems = await _context.Products
+                    .Where(p => !string.IsNullOrEmpty(keyword) &&
+                                (p.ProductName.ToLower().Contains(lowerKeyword) || 
+                                 p.Description.ToLower().Contains(lowerKeyword)))
+                    .CountAsync();
+
+    // Calculate total pages
+    var totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
+
+    // Fetch the model items based on the keyword search
+    model = await _context.Products
+                .Where(p => !string.IsNullOrEmpty(keyword) &&
+                            (p.ProductName.ToLower().Contains(lowerKeyword) || 
+                             p.Description.ToLower().Contains(lowerKeyword)))
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .Select(p => new ProductViewModel
+                {
+                    Id = p.Id,
+                    ProductName = p.ProductName,
+                    Price = p.Price,
+                    Style = p.Style,
+                    Category = p.Category,
+                    Description = p.Description,
+                    ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList()
+                })
+                .ToListAsync();
+
+    ViewBag.CurrentPage = page;
+    ViewBag.TotalPages = totalPages;
+    ViewBag.Keyword = keyword; // Keep track of the current keyword
+
+    return View(model); // Pass the model to the view
+}
+
 
     }
 
