@@ -149,6 +149,10 @@
       "PackagePath": "staticwebassets/img/core-img/cart.png"
     },
     {
+      "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/check.png",
+      "PackagePath": "staticwebassets/img/core-img/check.png"
+    },
+    {
       "Id": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/delete.png",
       "PackagePath": "staticwebassets/img/core-img/delete.png"
     },

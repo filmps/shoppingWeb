@@ -1,34 +1,37 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - OnlineWeb</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/OnlineWeb.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-</head>
-<body>
-    <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Title  -->
-    <title>Amado - Furniture Ecommerce Template | Home</title>
+    <!-- Title -->
+    <title>Amado - Furniture Ecommerce Template | Feedback</title>
 
-    <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <!-- Favicon -->
+    <link rel="icon" href="~/img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="css/core-style.css">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="~/css/core-style.css">
+    <link rel="stylesheet" href="~/style.css">
 </head>
+
+<body>
+
+        <!-- Mobile Nav (max width 767px)-->
+        <div class="mobile-nav">
+            <!-- Navbar Brand -->
+            <div class="amado-navbar-brand">
+                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+            </div>
+            <!-- Navbar Toggler -->
+            <div class="amado-navbar-toggler">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+
    <div class="container-fluid">
     <main role="main" class="pb-3">
         @RenderBody()
@@ -47,6 +50,7 @@
                         <p>Nulla ac convallis lorem, eget euismod nisl. Donec in libero sit amet mi vulputate consectetur. Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
                     </div>
                 </div>
+
                 <!-- Newsletter Form -->
                 <div class="col-12 col-lg-6 col-xl-5">
                     <div class="newsletter-form mb-100">
@@ -69,7 +73,7 @@
                     <div class="single_widget_area">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="index.html"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="index.html"><img src="~/img/core-img/logo2.png" alt=""></a>
                         </div>
                         <!-- Copywrite Text -->
                         <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -103,9 +107,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             <a class="nav-link" asp-controller="Checkout" asp-action="Index">Checkout</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" asp-controller="Product" asp-action="AddProduct">Add product</a>
+            <a class="nav-link" asp-controller="Product" asp-action="AddProduct">Add a product</a>
         </li>
+         <partial name="_LoginPartial" />
     </ul>
+    
 </div>
 
                             </nav>
@@ -115,9 +121,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/plugins.js"></script>
+    <script src="~/js/active.js"></script>
+    <script src="~/js/jquery/jquery-2.2.4.min.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

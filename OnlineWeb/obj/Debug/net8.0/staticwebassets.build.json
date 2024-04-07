@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J6fRHxs3klvI0omDBzX65Ut5lPTIN+67uhIZ29y74+w=",
+  "Hash": "1hQyLfLNkL8QYmpeo/sljBkkPnbKcSB0YXXyd8DC/PM=",
   "Source": "OnlineWeb",
   "BasePath": "_content/OnlineWeb",
   "Mode": "Default",
@@ -1877,6 +1877,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/core-img/cart.png"
+    },
+    {
+      "Identity": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/check.png",
+      "SourceId": "OnlineWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/",
+      "BasePath": "_content/OnlineWeb",
+      "RelativePath": "img/core-img/check.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/core-img/check.png"
     },
     {
       "Identity": "/Users/binli/Documents/GitHub/shoppingWeb/OnlineWeb/wwwroot/img/core-img/delete.png",

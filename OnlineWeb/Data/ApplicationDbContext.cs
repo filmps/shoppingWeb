@@ -1,10 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using OnlineWeb.Models;
 using System.ComponentModel.DataAnnotations; 
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace OnlineWeb.Data;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : IdentityDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
@@ -18,7 +19,7 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<CartItem> CartItems { get; set; }
 
-    public DbSet<User> Users { get; set; }
+    public DbSet<Order> Orders { get; set;}
 
     public DbSet<Feedback> Feedbacks { get; set; }
 

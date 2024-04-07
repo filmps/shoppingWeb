@@ -7,6 +7,7 @@ namespace OnlineWeb.Models.ViewModels // Adjust the namespace to match your proj
 
     public class CartViewModel
 {
+    public int CartId { get; set; } // Ensure this property exists
     public List<CartItemViewModel> Items { get; set; } = new List<CartItemViewModel>();
     public float TotalPrice => Items.Sum(item => item.TotalPrice);
 
