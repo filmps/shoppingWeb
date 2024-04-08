@@ -2,9 +2,10 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using OnlineWeb.Models;
 using OnlineWeb.Data;
+using MailKit;
 using MailKit.Net.Smtp;
+using MailKit.Security;
 using MimeKit;
-
 
 namespace OnlineWeb.Controllers
 {
@@ -35,37 +36,29 @@ namespace OnlineWeb.Controllers
 
         [HttpPost]
         public async Task<IActionResult> SendFeedback(Feedback feedback)
+
         {
-            if (ModelState.IsValid)
+            var message = new MimeMessage();
+            message.From.Add(new MailboxAddress("WebApp_Feedback", "519535143@qq.com"));
+            message.To.Add(new MailboxAddress("Support", "hanalau.unsw@gmail.com"));
+            message.Subject = feedback.Title + "from: " + feedback.UserEmail;
+            message.Body = new TextPart("html") 
             {
-                _context.Add(feedback);
-                await _context.SaveChangesAsync();
+                Text = string.Format("<h1>{0}</h1><br><p>{1}</p>", feedback.Title, feedback.Content)
+            };
+
+            using (var client = new SmtpClient(new ProtocolLogger (Console.OpenStandardOutput ())))
+            {
+                client.CheckCertificateRevocation = false;
+
+                client.ServerCertificateValidationCallback = (s, c, h, e) => true;
+                client.Connect("smtp.qq.com", 587, SecureSocketOptions.StartTls);
+                client.Authenticate("519535143@qq.com", "pjlvpopquwhjbjdh");
+                await client.SendAsync(message);
+                client.Disconnect(true);
                 return RedirectToAction(nameof(Success));
             }
-            return View(feedback);
+            return RedirectToAction("Index");
         }
-
-
-        // [HttpPost]
-        // public IActionResult SendFeedback(Feedback feedback)
-        // {
-        //     var email = new MimeMessage();
-        //     email.From.Add(new MailboxAddress("Name", "hanalau.unsw_bot@gmail.com"));
-        //     email.To.Add(new MailboxAddress("Support", "hanalau.unsw@gmail.com"));
-
-        //     email.Subject = feedback.Title;
-        //     email.Body = new TextPart("plain")
-        //     {
-        //         Text = feedback.Content
-        //     };
-
-        //     using var client = new SmtpClient();
-        //     client.Connect("smtp.example.com", 587, false);
-        //     client.Authenticate("outlook@bot.com", "dasfasdfadsfasd");
-        //     client.Send(email);
-        //     client.Disconnect(true);
-
-        //     return RedirectToAction("Index");
-        // }
     }
 }

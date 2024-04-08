@@ -23,82 +23,10 @@
 </head>
 
 <body>
-    <!-- Search Wrapper Area Start -->
-    <div class="search-wrapper section-padding-100">
-        <div class="search-close">
-            <i class="fa fa-close" aria-hidden="true"></i>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="search-content">
-                        <form asp-controller="Product" asp-action="SearchProducts" method="get">
-    <input type="search" name="keyword" id="search" placeholder="Type your keyword...">
-    <button type="submit"><img src="img/core-img/search.png" alt="Search"></button>
-                    </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Search Wrapper Area End -->
+
 
     <!-- ##### Main Content Wrapper Start ##### -->
     <div class="main-content-wrapper d-flex clearfix">
-
-        <!-- Mobile Nav (max width 767px)-->
-        <div class="mobile-nav">
-            <!-- Navbar Brand -->
-            <div class="amado-navbar-brand">
-                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
-            </div>
-            <!-- Navbar Toggler -->
-            <div class="amado-navbar-toggler">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-
-        <!-- Header Area Start -->
-        <header class="header-area clearfix">
-            <!-- Close Icon -->
-            <div class="nav-close">
-                <i class="fa fa-close" aria-hidden="true"></i>
-            </div>
-            <!-- Logo -->
-            <div class="logo">
-               <a asp-controller="Home" asp-action="Index"><img src="/img/core-img/logo.png" alt=""></a>
-            </div>
-            <!-- Amado Nav -->
-            <nav class="amado-nav">
-                <ul>
-                    <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-controller="Product" asp-action="shop">Shop</a></li>
-                    <li><a asp-controller="Product" asp-action="ProductDetails" asp-route-id=1>Product</a></li>
-                    <li><a asp-controller="Cart" asp-action="ViewCart">Cart</a></li>
-                    <li><a asp-controller="Checkout" asp-action="Checkout">Checkout</a></li>
-                    <li><a asp-controller="Product" asp-action="AddProduct">Add product</a></li>
-                </ul>
-            </nav>
-            <!-- Button Group -->
-            <div class="amado-btn-group mt-30 mb-100">
-                 <a href="#" class="btn amado-btn mb-15">Discount</a>
-                <a href="#" class="btn amado-btn active">New this week</a>
-            </div>
-            <!-- Cart Menu -->
-            <div class="cart-fav-search mb-100">
-               <a asp-controller="Cart" asp-action="ViewCart"><img src="/img/core-img/cart.png" alt=""> Cart @await Component.InvokeAsync("Cart")</span></a>
-                <a href="#" class="fav-nav"><img src="/img/core-img/favorites.png" alt=""> Favourite</a>
-                <a href="#" class="search-nav"><img src="/img/core-img/search.png" alt=""> Search</a>
-            </div>
-            <!-- Social Button -->
-            <div class="social-info d-flex justify-content-between">
-                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </div>
-        </header>
-        <!-- Header Area End -->
 
         <div class="shop_sidebar_area">
 
@@ -116,25 +44,25 @@
    </li>
 
     <li class="@("chairs".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="chairs">Chairs</a>
+        <a asp-controller="Product" asp-action="Products" asp-route-category="chairs">Chairs</a>
     </li>
     <li class="@("beds".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="beds">Beds</a>
+        <a asp-controller="Product" asp-action="Products" asp-route-category="beds">Beds</a>
     </li>
     <li class="@("accessories".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="accessories">Accessories</a>
+        <a asp-controller="Product" asp-action="Products" asp-route-category="accessories">Accessories</a>
     </li>
     <li class="@("furniture".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="furniture">Furniture</a>
+        <a asp-controller="Product" asp-action="Products" asp-route-category="furniture">Furniture</a>
     </li>
     <li class="@("home decor".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="home decor">Home Deco</a>
+        <a asp-controller="Product" asp-action="Products" asp-route-category="home decor">Home Deco</a>
     </li>
     <li class="@("dressings".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="dressings">Dressings</a>
+        <a asp-controller="Product" asp-action="Products" asp-route-category="dressings">Dressings</a>
     </li>
     <li class="@("tables".Equals(ViewBag.SelectedCategory, StringComparison.OrdinalIgnoreCase) ? "active" : "")">
-        <a asp-controller="Product" asp-action="ShopCategory" asp-route-category="tables">Tables</a>
+        <a asp-controller="Product" asp-action="Products" asp-route-category="tables">Tables</a>
     </li>
 </ul>
 
@@ -148,7 +76,7 @@
 
                <div class="widget-desc">
     <!-- Single Form Check for Modern -->
-    <form asp-controller="Product" asp-action="ShopStyle" method="get" style="margin-bottom: 20px;" >
+    <form asp-controller="Product" asp-action="Products" method="get" style="margin-bottom: 20px;" >
         <div class="form-check">
             <input class="form-check-input" type="checkbox" name="style" value="modern" id="modern" 
                 @(ViewBag.SelectedStyle == "modern" ? "checked" : "") onchange="this.form.submit();">
@@ -156,7 +84,7 @@
         </div>
     </form>
     <!-- Single Form Check for Old Fashion -->
-    <form asp-controller="Product" asp-action="ShopStyle" method="get" style="margin-bottom: 20px;">
+    <form asp-controller="Product" asp-action="Products" method="get" style="margin-bottom: 20px;">
         <div class="form-check">
             <input class="form-check-input" type="checkbox" name="style" value="old-fashion" id="old-fashion" 
                 @(ViewBag.SelectedStyle == "old-fashion" ? "checked" : "") onchange="this.form.submit();">
@@ -164,7 +92,7 @@
         </div>
     </form>
     <!-- Single Form Check for Scandinavian -->
-    <form asp-controller="Product" asp-action="ShopStyle" method="get" style="margin-bottom: 20px;">
+    <form asp-controller="Product" asp-action="Products" method="get" style="margin-bottom: 20px;">
         <div class="form-check">
             <input class="form-check-input" type="checkbox" name="style" value="scandinavian" id="scandinavian" 
                 @(ViewBag.SelectedStyle == "scandinavian" ? "checked" : "") onchange="this.form.submit();">
@@ -172,7 +100,7 @@
         </div>
     </form>
     <!-- Single Form Check for Minimalist -->
-    <form asp-controller="Product" asp-action="ShopStyle" method="get" style="margin-bottom: 20px;">
+    <form asp-controller="Product" asp-action="Products" method="get" style="margin-bottom: 20px;">
         <div class="form-check">
             <input class="form-check-input" type="checkbox" name="style" value="minimalist" id="minimalist" 
                 @(ViewBag.SelectedStyle == "minimalist" ? "checked" : "") onchange="this.form.submit();">
