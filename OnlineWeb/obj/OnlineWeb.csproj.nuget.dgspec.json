@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tom.liu/Downloads/shoppingWeb 4/OnlineWeb/OnlineWeb.csproj": {}
+    "/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/OnlineWeb.csproj": {}
   },
   "projects": {
-    "/Users/tom.liu/Downloads/shoppingWeb 4/OnlineWeb/OnlineWeb.csproj": {
+    "/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/OnlineWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tom.liu/Downloads/shoppingWeb 4/OnlineWeb/OnlineWeb.csproj",
+        "projectUniqueName": "/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/OnlineWeb.csproj",
         "projectName": "OnlineWeb",
-        "projectPath": "/Users/tom.liu/Downloads/shoppingWeb 4/OnlineWeb/OnlineWeb.csproj",
-        "packagesPath": "/Users/tom.liu/.nuget/packages/",
-        "outputPath": "/Users/tom.liu/Downloads/shoppingWeb 4/OnlineWeb/obj/",
+        "projectPath": "/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/OnlineWeb.csproj",
+        "packagesPath": "/Users/hana/.nuget/packages/",
+        "outputPath": "/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tom.liu/.nuget/NuGet/NuGet.Config"
+          "/Users/hana/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -107,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
