@@ -33,8 +33,8 @@
                 <div class="col-12">
                     <div class="search-content">
                       <form asp-controller="Product" asp-action="SearchProducts" method="get">
-    <input type="search" name="keyword" id="search" placeholder="Type your keyword...">
-    <button type="submit"><img src="img/core-img/search.png" alt="Search"></button>
+                     <input type="search" name="keyword" id="search" placeholder="Type your keyword...">
+                       <button type="submit"><img src="img/core-img/search.png" alt="Search"></button>
                     </form>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
             <div class="cart-fav-search mb-100">
                 <a asp-controller="Cart" asp-action="ViewCart"><img src="img/core-img/cart.png" alt=""> Cart @await Component.InvokeAsync("Cart")</span></a>
                 <a href="#" class="fav-nav"><img src="img/core-img/favorites.png" alt=""> Favourite</a>
-                <a href="#" class="search-nav"><img src="img/core-img/search.png" alt=""> Search</a>
+                <a href="#" class="search-nav"><img src="img/core-img/search.png" alt="">Search</a>
                 <a asp-controller="Feedback" asp-action="Index">
                     <i class="fas fa-envelope" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i>Feedback
                 </a>
@@ -232,10 +232,9 @@
             </div>
         </div>
         <!-- Product Catagories Area End -->
-    </div>
     <!-- ##### Main Content Wrapper End ##### -->
 
-    
+    </div>
     <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
