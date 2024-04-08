@@ -322,6 +322,23 @@ img {
     color: #ffffff;
     background-color: #131212; }
 
+    .amado-search-btn {
+      display: inline-block;
+      min-width: 160px;
+      height: 28px;
+      color: #ffffff;
+      border: none;
+      border-radius: 0;
+      padding: 0 7px;
+      font-size: 18px;
+      line-height: 28px;
+      background-color: #fbb710;
+      font-weight: 400; }
+      .amado-search-btn.active, .amado-search-btn:hover, .amado-search-btn:focus {
+        font-size: 18px;
+        color: #ffffff;
+        background-color: #131212; }
+
 /* :: 4.0 Search Wrapper Area CSS */
 .search-wrapper {
   position: fixed;

@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -21,23 +22,124 @@
 
 <body>
 
-        <!-- Mobile Nav (max width 767px)-->
-        <div class="mobile-nav">
-            <!-- Navbar Brand -->
-            <div class="amado-navbar-brand">
-                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+    <!-- Mobile Nav (max width 767px)-->
+    <div class="mobile-nav">
+        <!-- Navbar Brand -->
+        <div class="amado-navbar-brand">
+            <a href="/"><img src="~/img/core-img/logo.png" alt=""></a>
+        </div>
+        <!-- Navbar Toggler -->
+        <div class="amado-navbar-toggler">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <!-- Search Wrapper Area Start -->
+        <div class="search-wrapper section-padding-100">
+            <div class="search-close">
+                <i class="fa fa-close" aria-hidden="true"></i>
             </div>
-            <!-- Navbar Toggler -->
-            <div class="amado-navbar-toggler">
-                <span></span><span></span><span></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="search-content">
+                            <form asp-controller="Product" asp-action="SearchProducts" method="get">
+                                <input type="search" name="keyword" id="search" placeholder="Type your keyword...">
+                                <button type="submit"><i class="fas fa-search" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- Search Wrapper Area End -->
 
-   <div class="container-fluid">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
+        <div class="main-content-wrapper d-flex clearfix">
+
+            <!-- Mobile Nav (max width 767px)-->
+            <div class="mobile-nav">
+                <!-- Navbar Brand -->
+                <div class="amado-navbar-brand">
+                    <a href="index.html"><img src="~/img/core-img/logo.png" alt=""></a>
+                </div>
+                <!-- Navbar Toggler -->
+                <div class="amado-navbar-toggler">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+
+
+            <!-- Header Area Start -->
+            <header class="header-area clearfix">
+                <!-- Close Icon -->
+                <div class="nav-close">
+                    <i class="fa fa-close" aria-hidden="true"></i>
+                </div>
+                <!-- Logo -->
+                <div class="logo">
+                    <a asp-controller="Home" asp-action="Index"><img src="~/img/core-img/logo.png" alt=""></a>
+                </div>
+                <!-- Amado Nav -->
+                @{
+
+                    var page = Context.Request.RouteValues.ContainsKey("action") ?
+                    Context.Request.RouteValues["action"].ToString() : Context.Request.RouteValues["page"].ToString();
+
+                }
+                <nav class="amado-nav">
+                    <ul>
+                        <li class="@(page == "Index" ? "active" : "")"><a asp-controller="Home"
+                                asp-action="Index">Home</a></li>
+                        <li class="@(page == "Products" ? "active" : "")"><a asp-controller="Product"
+                                asp-action="Products" asp-route-category="all" asp-route-style="all">Product</a></li>
+                        @* <li class="@(page == "ProductDetails" ? "active" : "")"><a asp-controller="Product"
+                                asp-action="ProductDetails" asp-route-id=1>Product</a></li> *@
+                        @* <li class="@(page == "ViewCart" ? "active" : "")"><a asp-controller="Cart"
+                                asp-action="ViewCart">Cart</a></li>
+                        <li class="@(page == "Checkout" ? "active" : "")"><a asp-controller="Checkout"
+                                asp-action="Checkout">Checkout</a></li>
+                        <li class="@(page == "AddProduct" ? "active" : "")"><a asp-controller="Product"
+                                asp-action="AddProduct">Add Product</a></li>
+                        <li class="@(page == "MainOrderDetails" ? "active" : "")"><a asp-controller="Checkout"
+                                asp-action="MainOrderDetails">View Orders</a></li> *@
+                    </ul>
+                </nav>
+                <!-- Button Group -->
+                <div class="amado-btn-group mt-30 mb-100">
+                    <a href="#" class="search-nav btn amado-btn mb-15">Search</a>
+                </div>
+                <!-- Cart Menu -->
+                <div class="cart-fav-search mb-100">
+                    <a asp-controller="Cart" asp-action="ViewCart"><i class="fas fa-shopping-cart" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i> Cart
+                        @await Component.InvokeAsync("Cart")</span></a>
+
+                    <a asp-controller="Checkout" asp-action="MainOrderDetails"><i class="fas fa-money" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i> Order</span></a>
+                    <a asp-controller="Checkout" asp-action="Checkout"><i class="fas fa-credit-card-alt" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i> Checkout</span></a>
+                    <a asp-controller="Product" asp-action="AddProduct"><i class="fas fa-bed" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i> Add Product</span></a>
+
+                    <a asp-controller="Feedback" asp-action="Index">
+                        <i class="fas fa-envelope" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i>
+                            Feedback
+                    </a>
+                </div>
+                <!-- Social Button -->
+                <div class="social-info d-flex justify-content-between">
+                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </header>
+            <!-- Header Area End -->
+
+            <!-- Product Catagories Area Start -->
+            <div class="products-catagories-area clearfix">
+                @RenderBody()
+            </div>
+            <!-- Product Catagories Area End -->
+        </div>
+    </div>
 
 
     <!-- ##### Newsletter Area Start ##### -->
@@ -48,7 +150,8 @@
                 <div class="col-12 col-lg-6 col-xl-7">
                     <div class="newsletter-text mb-100">
                         <h2>Subscribe for a <span>25% Discount</span></h2>
-                        <p>Nulla ac convallis lorem, eget euismod nisl. Donec in libero sit amet mi vulputate consectetur. Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
+                        <p>Nulla ac convallis lorem, eget euismod nisl. Donec in libero sit amet mi vulputate
+                            consectetur. Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
                     </div>
                 </div>
 
@@ -65,7 +168,7 @@
         </div>
     </section>
     <!-- ##### Newsletter Area End ##### -->
-         <!-- ##### Footer Area Start ##### -->
+    <!-- ##### Footer Area Start ##### -->
     <footer class="footer_area clearfix">
         <div class="container">
             <div class="row align-items-center">
@@ -77,10 +180,15 @@
                             <a href="index.html"><img src="~/img/core-img/logo2.png" alt=""></a>
                         </div>
                         <!-- Copywrite Text -->
-                        <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->& Re-distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
-</p>
+                        <p class="copywrite">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->&
+                            Re-distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
+                        </p>
                     </div>
                 </div>
                 <!-- Single Widget Area -->
@@ -89,30 +197,21 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <nav class="navbar navbar-expand-lg justify-content-end">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerNavContent" aria-controls="footerNavContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#footerNavContent" aria-controls="footerNavContent"
+                                    aria-expanded="false" aria-label="Toggle navigation"><i
+                                        class="fa fa-bars"></i></button>
                                 <div class="collapse navbar-collapse" id="footerNavContent">
-    <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" asp-controller="Shop" asp-action="Index">Shop</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" asp-controller="Product" asp-action="ProductDetails">Product</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" asp-controller="Cart" asp-action="ViewCart">Cart</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" asp-controller="Checkout" asp-action="Index">Checkout</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" asp-controller="Product" asp-action="AddProduct">Add a product</a>
-        </li>
-         <partial name="_LoginPartial" />
-    </ul>
-</div>
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-controller="Product" asp-action="Products">Shop</a>
+                                        </li>
+                                        <partial name="_LoginPartial" />
+                                    </ul>
+                                </div>
 
                             </nav>
                         </div>
@@ -121,9 +220,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
-     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
