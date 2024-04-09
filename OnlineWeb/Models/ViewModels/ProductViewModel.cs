@@ -36,5 +36,11 @@ namespace OnlineWeb.Models.ViewModels // Adjust the namespace to match your proj
         public List<IFormFile> ProductImageFiles { get; set; }
 
         // Additional fields as needed based on your form
+        public DateTime LastUpdated { get; set; }
+
+    }
+
+    public class ProductManageViewModel: ProductViewModel {
+        
     }
 }

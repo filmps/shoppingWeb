@@ -17,259 +17,263 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineWeb
 build_property.RootNamespace = OnlineWeb
-build_property.ProjectDir = /Users/hana/Downloads/shoppingWeb 4/OnlineWeb/
+build_property.ProjectDir = /Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/hana/Downloads/shoppingWeb 4/OnlineWeb
+build_property.MSBuildProjectDirectory = /Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Db25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Db25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9FeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Lockout.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Login.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Logout.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/Register.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/Error.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/_ViewImports.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Areas/Identity/Pages/_ViewStart.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Cart/ViewCart.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Cart/ViewCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9WaWV3Q2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Checkout/Checkout.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Checkout/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Checkout/MainOrderDetails.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Checkout/MainOrderDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvTWFpbk9yZGVyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Checkout/OrderConfirmation.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Checkout/OrderConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvT3JkZXJDb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Checkout/OrderDetails.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Checkout/OrderDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvT3JkZXJEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Feedback/Index.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Feedback/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVlZGJhY2svSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Feedback/Success.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Feedback/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVlZGJhY2svU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Home/index.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Home/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Home/Privacy.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Product/AddProduct.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Product/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Product/EditProduct.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Product/EditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Product/ProductDetails.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Product/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Product/Products.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Product/Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Product/SearchProducts.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Product/ProductsManage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0c01hbmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Product/SearchProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TZWFyY2hQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Product/SortProducts.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Product/SortProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Tb3J0UHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Shared/Components/Cart/Default.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Shared/Components/Cart/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2FydC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Shared/Error.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Shared/_LoginPartial.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/_ViewImports.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/_ViewStart.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hana/Downloads/shoppingWeb 4/OnlineWeb/Views/Shared/_Layout.cshtml]
+[/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tf11jbj7n8

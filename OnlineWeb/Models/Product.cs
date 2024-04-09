@@ -10,5 +10,7 @@ public class Product
 
     // Navigation property for related ProductImage entries
     public List<ProductImage>? ProductImageFiles { get; set; } = new List<ProductImage>();
-
+    
+     // Add this field to keep track of update time
+    public DateTime LastUpdated { get; set; }
 }

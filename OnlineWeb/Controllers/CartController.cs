@@ -39,8 +39,6 @@ namespace OnlineWeb.Controllers
             if (string.IsNullOrEmpty(userId))
             {
                 return RedirectToPage("/Account/Login", new { area = "Identity" }); // Redirect to login if user is not logged in
-
-
             }
             // Directly use the method to get cart from session
             var cartViewModel = new CartViewModel();

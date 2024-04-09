@@ -50,7 +50,8 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
                     Style = model.Style,
                     Category = model.Category,
                     Description = model.Description,
-                    ProductImageFiles = new List<ProductImage>()
+                    ProductImageFiles = new List<ProductImage>(),
+                    LastUpdated = DateTime.Now
                 };
                 Console.WriteLine("Log message: ok.");
                 if (model.ProductImageFiles != null && model.ProductImageFiles.Count > 0)
@@ -135,7 +136,8 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
                     Style = p.Style,
                     Category = p.Category,
                     Description = p.Description,
-                    ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList()
+                    ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList(),
+                    LastUpdated = p.LastUpdated
                 })
                 .ToListAsync();
 
@@ -196,7 +198,7 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
                 product.Style = viewModel.Style;
                 product.Category = viewModel.Category;
                 product.Description = viewModel.Description;
-
+                product.LastUpdated = DateTime.Now;
                 if (viewModel.ProductImageFiles != null && viewModel.ProductImageFiles.Count > 0)
                 {
                     // Assuming a method to handle file saving and URL generation:
@@ -211,9 +213,6 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
 
                     product.ProductImageFiles = uploadedImages; // Replace existing images with the new ones
                 }
-
-
-
                 try
                 {
                     _context.Update(product);
@@ -233,6 +232,7 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
 
                 return RedirectToAction(nameof(ProductDetails), new { id = viewModel.Id });
             }
+            Console.WriteLine("🔥🔥🔥🔥");
 
             return View(viewModel);
         }
@@ -247,9 +247,45 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
                 _context.Products.Remove(item);
                 await _context.SaveChangesAsync();
                 // Redirect to a different action/controller as needed
-                return RedirectToAction("Shop", "Product");
+                return RedirectToAction("ProductsManage", "Product");
             }
             return NotFound();
+        }
+
+        public async Task<IActionResult> ProductsManage(int page = 1) {
+            IEnumerable<ProductManageViewModel> model;
+            const int pageSize = 8; // Items per page
+            int totalItems = await _context.Products.CountAsync();  // Get the total number of products
+            model = await _context.Products
+                            .OrderByDescending(p => p.LastUpdated)  // Add this line
+                                .Skip((page - 1) * pageSize)
+                                .Take(pageSize)
+                                .Select(p => new ProductManageViewModel
+                                {
+                                    Id = p.Id,
+                                    ProductName = p.ProductName,
+                                    Price = p.Price,
+                                    Style = p.Style,
+                                    Category = p.Category,
+                                    Description = p.Description,
+                                    ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList(),
+                                    LastUpdated = p.LastUpdated
+                                })
+                                .ToListAsync();
+
+                _currentCategory = string.Empty;
+                _style = string.Empty;
+            var totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
+
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalPages = totalPages;
+            ViewBag.SelectedStyle = _style;
+            ViewBag.CurrentStyle = _style;
+            ViewBag.SelectedCategory = _currentCategory;
+            ViewBag.CurrentCategory = _currentCategory;
+            ViewBag.TotalItems = totalItems;
+
+            return View(model); // Pass the model to the view
         }
 
         public async Task<IActionResult> Products(string category, string style, int page = 1)
@@ -276,7 +312,8 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
                 Style = p.Style,
                 Category = p.Category,
                 Description = p.Description,
-                ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList()
+                ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList(),
+                LastUpdated = p.LastUpdated
             })
             .ToListAsync();
                 }
@@ -297,7 +334,8 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
                 Style = p.Style,
                 Category = p.Category,
                 Description = p.Description,
-                ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList()
+                ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList(),
+                LastUpdated = p.LastUpdated
             })
             .ToListAsync();
                 }
@@ -324,7 +362,8 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
                                     Style = p.Style,
                                     Category = p.Category,
                                     Description = p.Description,
-                                    ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList()
+                                    ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList(),
+                                    LastUpdated = p.LastUpdated
                                 })
                                 .ToListAsync();
 
@@ -431,7 +470,8 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
                     Category = p.Category,
                     Description = p.Description,
                     // Assuming you have a way to convert product images to URLs
-                    ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList()
+                    ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList(),
+                    LastUpdated = p.LastUpdated
                 })
                 .ToListAsync();
 
@@ -479,7 +519,8 @@ namespace OnlineWeb.Controllers  // Replace "YourApplicationNamespace" with your
                             Style = p.Style,
                             Category = p.Category,
                             Description = p.Description,
-                            ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList()
+                            ImageUrls = p.ProductImageFiles.Select(img => img.ImageUrl).ToList(),
+                            LastUpdated = p.LastUpdated
                         })
                         .ToListAsync();
 

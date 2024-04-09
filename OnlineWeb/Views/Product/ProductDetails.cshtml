@@ -110,30 +110,39 @@
                             </div>
 
                             <!-- Add to Cart Form -->
-                            <form asp-controller="Cart" asp-action="MainAddToCart" asp-route-productId=@Model.Id
-                                method="post" class="cart clearfix" method="post">
-                                <div class="cart-btn d-flex mb-50">
-                                    <p>Qty</p>
-                                    <div class="quantity">
-                                        <span class="qty-minus"
-                                            onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i
-                                                class="fa fa-caret-down" aria-hidden="true"></i></span>
-                                        <input type="number" class="qty-text" id="qty" step="1" min="1" max="300"
-                                            name="quantity" value="1">
-                                        <span class="qty-plus"
-                                            onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i
-                                                class="fa fa-caret-up" aria-hidden="true"></i></span>
-                                    </div>
-                                </div>
-                                <button type="submit" name="addtocart" value="5" class="btn amado-btn mb-15">Add to
-                                    cart</button>
-                            </form>
-                            <form class="cart clearfix" asp-action="Edit" asp-route-id=@Model.Id method="get">
-                                <div class="cart-btn d-flex mb-50">
 
-                                    <button type="submit" name="editproduct" value="5" class="btn amado-btn active">Edit
-                                        the product</button>
-                            </form>
+                            <div class="cart-btn d-flex mb-50">
+                                @if (User.Identity.IsAuthenticated && User.Identity.Name.ToLower() == "admin@123.com" && Context.Request.Headers["Referer"].ToString().Contains("/ProductsManage")
+)
+                                {
+                                    <form class="cart clearfix" asp-action="Edit" asp-route-id=@Model.Id method="get">
+                                        <button type="submit" name="editproduct" value="5" class="btn amado-btn active">Edit
+                                            the product</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-controller="Cart" asp-action="MainAddToCart" asp-route-productId=@Model.Id
+                                        method="post" class="cart clearfix" method="post">
+                                        <div class="cart-btn d-flex mb-50">
+                                            <p>Qty</p>
+                                            <div class="quantity">
+                                                <span class="qty-minus"
+                                                    onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i
+                                                        class="fa fa-caret-down" aria-hidden="true"></i></span>
+                                                <input type="number" class="qty-text" id="qty" step="1" min="1" max="300"
+                                                    name="quantity" value="1">
+                                                <span class="qty-plus"
+                                                    onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i
+                                                        class="fa fa-caret-up" aria-hidden="true"></i></span>
+                                            </div>
+                                        </div>
+                                        <button type="submit" name="addtocart" value="5" class="btn amado-btn mb-15">Add to
+                                            the cart</button>
+                                    </form>
+                                }
+                            </div>
+
 
                         </div>
                     </div>
