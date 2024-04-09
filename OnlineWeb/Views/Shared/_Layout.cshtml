@@ -93,16 +93,6 @@
                                 asp-action="Index">Home</a></li>
                         <li class="@(page == "Products" ? "active" : "")"><a asp-controller="Product"
                                 asp-action="Products" asp-route-category="all" asp-route-style="all">Product</a></li>
-                        @* <li class="@(page == "ProductDetails" ? "active" : "")"><a asp-controller="Product"
-                                asp-action="ProductDetails" asp-route-id=1>Product</a></li> *@
-                        @* <li class="@(page == "ViewCart" ? "active" : "")"><a asp-controller="Cart"
-                                asp-action="ViewCart">Cart</a></li>
-                        <li class="@(page == "Checkout" ? "active" : "")"><a asp-controller="Checkout"
-                                asp-action="Checkout">Checkout</a></li>
-                        <li class="@(page == "AddProduct" ? "active" : "")"><a asp-controller="Product"
-                                asp-action="AddProduct">Add Product</a></li>
-                        <li class="@(page == "MainOrderDetails" ? "active" : "")"><a asp-controller="Checkout"
-                                asp-action="MainOrderDetails">View Orders</a></li> *@
                     </ul>
                 </nav>
                 <!-- Button Group -->
@@ -113,16 +103,31 @@
                 <div class="cart-fav-search mb-100">
                     <a asp-controller="Cart" asp-action="ViewCart"><i class="fas fa-shopping-cart" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i> Cart
                         @await Component.InvokeAsync("Cart")</span></a>
-
                     <a asp-controller="Checkout" asp-action="MainOrderDetails"><i class="fas fa-money" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i> Order</span></a>
                     <a asp-controller="Checkout" asp-action="Checkout"><i class="fas fa-credit-card-alt" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i> Checkout</span></a>
-                    <a asp-controller="Product" asp-action="AddProduct"><i class="fas fa-bed" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i> Add Product</span></a>
 
                     <a asp-controller="Feedback" asp-action="Index">
                         <i class="fas fa-envelope" style="color: rgb(193, 188, 188);margin-right:12px;margin-left:4px;"></i>
                             Feedback
                     </a>
                 </div>
+
+            @if (User.Identity.IsAuthenticated && User.Identity.Name.ToLower() == "admin@123.com")
+            {
+                <div class="amado-btn-group mt-30 mb-100">
+                    <p> Admin </p>
+                    <nav class="amado-nav">
+                        <ul>
+                            <li class="@(page == "AddProduct" ? "active" : "")"><a asp-controller="Product"
+                                    asp-action="AddProduct">Add Product</a></li>
+                            <li class="@(page == "ProductsManage" ? "active" : "")"><a asp-controller="Product"
+                                    asp-action="ProductsManage">Products Manage</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            }
+                
+
                 <!-- Social Button -->
                 <div class="social-info d-flex justify-content-between">
                     <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>

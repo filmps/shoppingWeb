@@ -2096,6 +2096,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0c586c50-d3be-4439-8619-b6a649c1f6c5_NSF-CG-3-MD-DW-TF.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0df56128-3e1f-4ba7-a22d-10737d725792_circle.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineWeb</BasePath>
+      <RelativePath>uploads/0df56128-3e1f-4ba7-a22d-10737d725792_circle.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0df56128-3e1f-4ba7-a22d-10737d725792_circle.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e75276b-aca0-40a7-a8e4-08d424ce7827_Arm-Detail-CG-MD-TF.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineWeb</SourceId>
@@ -2880,6 +2896,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\8a281c39-eef3-4492-b7a5-2cfad08f89b0_NSF-CG-3-MD-DW-TF.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\8a869aaa-e699-43a2-ad5f-476cecfba504_WechatIMG268.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineWeb</BasePath>
+      <RelativePath>uploads/8a869aaa-e699-43a2-ad5f-476cecfba504_WechatIMG268.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\8a869aaa-e699-43a2-ad5f-476cecfba504_WechatIMG268.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\8aa7e427-6e2d-406c-a0f1-d0298c376527_Nomad-Block-Arm-Grey-Talent-3.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineWeb</SourceId>
@@ -3200,6 +3232,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c20e2bdf-6f1a-4359-8eb7-1b469cff6a5c_Arm-Detail-CG-MD-TF.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c2192d09-8d6b-435b-bc18-7f6a84cfa7b4_BG.svg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineWeb</BasePath>
+      <RelativePath>uploads/c2192d09-8d6b-435b-bc18-7f6a84cfa7b4_BG.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c2192d09-8d6b-435b-bc18-7f6a84cfa7b4_BG.svg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ca333d7a-df78-44f1-8ae7-fd505c642ad8_dre3.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineWeb</SourceId>
@@ -3423,6 +3471,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fbfe7a4a-df0f-4fc9-bdf0-6ea4af497164_sofa2.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\neom-szVSGKE4kYI-unsplash.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineWeb</BasePath>
+      <RelativePath>uploads/neom-szVSGKE4kYI-unsplash.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\neom-szVSGKE4kYI-unsplash.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Nomad-Block-Arm-Grey-Talent-3.jpeg))">
       <SourceType>Package</SourceType>

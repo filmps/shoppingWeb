@@ -288,7 +288,7 @@ namespace OnlineWeb.Migrations
                     b.ToTable("Feedbacks");
                 });
 
-            modelBuilder.Entity("Order", b =>
+            modelBuilder.Entity("OnlineWeb.Models.Order", b =>
                 {
                     b.Property<int>("OrderId")
                         .ValueGeneratedOnAdd()
@@ -362,6 +362,9 @@ namespace OnlineWeb.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("LastUpdated")
                         .HasColumnType("TEXT");
 
                     b.Property<float>("Price")
@@ -465,7 +468,7 @@ namespace OnlineWeb.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Order", b =>
+            modelBuilder.Entity("OnlineWeb.Models.Order", b =>
                 {
                     b.HasOne("Cart", "Cart")
                         .WithMany()

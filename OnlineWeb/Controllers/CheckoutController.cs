@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using OnlineWeb.Models.ViewModels;
 using OnlineWeb.Models;
-
+using Microsoft.AspNetCore.Authorization;
+[Authorize]
 public class CheckoutController : Controller
 {
     private readonly ApplicationDbContext _context;
