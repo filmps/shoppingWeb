@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/OnlineWeb.csproj": {}
+    "/Users/fox/Documents/GitHub/ProgrammingFortheInternet/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {}
   },
   "projects": {
-    "/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/OnlineWeb.csproj": {
+    "/Users/fox/Documents/GitHub/ProgrammingFortheInternet/shoppingWeb/OnlineWeb/OnlineWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/OnlineWeb.csproj",
+        "projectUniqueName": "/Users/fox/Documents/GitHub/ProgrammingFortheInternet/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
         "projectName": "OnlineWeb",
-        "projectPath": "/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/OnlineWeb.csproj",
-        "packagesPath": "/Users/tom.liu/.nuget/packages/",
-        "outputPath": "/Users/tom.liu/Downloads/shoppingWeb 5/OnlineWeb/obj/",
+        "projectPath": "/Users/fox/Documents/GitHub/ProgrammingFortheInternet/shoppingWeb/OnlineWeb/OnlineWeb.csproj",
+        "packagesPath": "/Users/fox/.nuget/packages/",
+        "outputPath": "/Users/fox/Documents/GitHub/ProgrammingFortheInternet/shoppingWeb/OnlineWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tom.liu/.nuget/NuGet/NuGet.Config"
+          "/Users/fox/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
